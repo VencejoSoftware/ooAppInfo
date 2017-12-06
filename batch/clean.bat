@@ -1,1 +1,1 @@
-call "..\..\ooBatch\code\clean.bat" ..\
+call %delphiooLib%\ooBatch\code\clean.bat ..\
