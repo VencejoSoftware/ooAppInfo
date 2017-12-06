@@ -1,0 +1,17 @@
+DiGraph Uses {
+  "ooAppInfo" -> "Classes"
+  "ooAppInfo" -> "SysUtils"
+  "ooAppInfo" -> "ooAppInfo.Parameter"
+  "ooAppInfo" -> "ooAppInfo.Parameter.Parser"
+  "ooAppInfo" -> "ooAppInfo.Version"
+  "ooAppInfo" [href="ooAppInfo.html"]
+  "ooAppInfo.Parameter" -> "SysUtils"
+  "ooAppInfo.Parameter" -> "Generics.Collections"
+  "ooAppInfo.Parameter" [href="ooAppInfo.Parameter.html"]
+  "ooAppInfo.Parameter.Parser" -> "SysUtils"
+  "ooAppInfo.Parameter.Parser" -> "ooAppInfo.Parameter"
+  "ooAppInfo.Parameter.Parser" [href="ooAppInfo.Parameter.Parser.html"]
+  "ooAppInfo.Version" -> "Windows"
+  "ooAppInfo.Version" -> "SysUtils"
+  "ooAppInfo.Version" [href="ooAppInfo.Version.html"]
+}

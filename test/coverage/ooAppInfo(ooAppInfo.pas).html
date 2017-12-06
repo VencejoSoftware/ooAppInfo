@@ -1,0 +1,325 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Delphi CodeCoverage Coverage Report</title>
+<style type="text/css">
+table {border-spacing:0; border-collapse:collapse;}
+table, td, th {border: 1px solid black;}
+td, th {background: white; margin: 0; padding: 2px 0.5em 2px 0.5em}
+td {border-width: 0 1px 0 0;}
+th {border-width: 1px 1px 1px 0;}
+p, h1, h2, h3, th {font-family: verdana,arial,sans-serif; font-size: 10pt;}
+td {font-family: courier,monospace; font-size: 10pt;}
+th {background: #CCCCCC;}
+table.o tr td:nth-child(1) {font-weight: bold;}
+table.o tr td:nth-child(2) {text-align: right;}
+table.o tr td {border-width: 1px;}
+table.s {width: 100%;}
+table.s tr td {padding: 0 0.25em 0 0.25em;}
+table.s tr td:first-child {text-align: right; font-weight: bold;}
+table.s tr.notcovered td {background: #DDDDFF;}
+table.s tr.nocodegen td {background: #FFFFEE;}
+table.s tr.covered td {background: #CCFFCC;}
+table.s tr.covered td:first-child {color: green;}
+table.s {border-width: 1px 0 1px 1px;}
+table.sum tr td {border-width: 1px;}
+table.sum tr th {text-align:right;}
+table.sum tr th:first-child {text-align:center;}
+table.sum tr td {text-align:right;}
+table.sum tr td:first-child {text-align:left;}
+</style>
+</head>
+<body>
+<p>Coverage report for <strong>ooAppInfo (C:\develop\ooLib\ooAppInfo\code\ooAppInfo.pas)</strong>.</p>
+<p> Generated at 15/11/2017 17:52:12 by <a href="https://sourceforge.net/projects/delphicodecoverage/" title="Code Coverage for Delphi 5+">DelphiCodeCoverage</a> - an open source tool for Delphi Code Coverage.</p>
+<p> Statistics for C:\develop\ooLib\ooAppInfo\code\ooAppInfo.pas </p>
+<table  class="o"><tr><td>Number of lines covered</td><td>70</td></tr><tr><td>Number of lines with code gen</td><td>70</td></tr><tr><td>Line coverage</td><td>100%</td></tr></table>
+<br /><br />
+<table  class="s">
+<tr class="nocodegen"><td>1</td><td><pre style="display:inline;">{$REGION &apos;documentation&apos;}</pre></td></tr>
+<tr class="nocodegen"><td>2</td><td><pre style="display:inline;">{</pre></td></tr>
+<tr class="nocodegen"><td>3</td><td><pre style="display:inline;"> &nbsp;Copyright (c) 2016, Vencejo Software</pre></td></tr>
+<tr class="nocodegen"><td>4</td><td><pre style="display:inline;"> &nbsp;Distributed under the terms of the Modified BSD License</pre></td></tr>
+<tr class="nocodegen"><td>5</td><td><pre style="display:inline;"> &nbsp;The full license is distributed with this software</pre></td></tr>
+<tr class="nocodegen"><td>6</td><td><pre style="display:inline;">}</pre></td></tr>
+<tr class="nocodegen"><td>7</td><td><pre style="display:inline;">{</pre></td></tr>
+<tr class="nocodegen"><td>8</td><td><pre style="display:inline;"> &nbsp;Application information detail</pre></td></tr>
+<tr class="nocodegen"><td>9</td><td><pre style="display:inline;"> &nbsp;@created(08/04/2016)</pre></td></tr>
+<tr class="nocodegen"><td>10</td><td><pre style="display:inline;"> &nbsp;@author Vencejo Software &lt;www.vencejosoft.com&gt;</pre></td></tr>
+<tr class="nocodegen"><td>11</td><td><pre style="display:inline;">}</pre></td></tr>
+<tr class="nocodegen"><td>12</td><td><pre style="display:inline;">{$ENDREGION}</pre></td></tr>
+<tr class="nocodegen"><td>13</td><td><pre style="display:inline;">unit ooAppInfo;</pre></td></tr>
+<tr class="nocodegen"><td>14</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>15</td><td><pre style="display:inline;">interface</pre></td></tr>
+<tr class="nocodegen"><td>16</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>17</td><td><pre style="display:inline;">uses</pre></td></tr>
+<tr class="nocodegen"><td>18</td><td><pre style="display:inline;"> &nbsp;Classes, SysUtils,</pre></td></tr>
+<tr class="nocodegen"><td>19</td><td><pre style="display:inline;"> &nbsp;ooAppInfo.Parameter, ooAppInfo.Parameter.Parser,</pre></td></tr>
+<tr class="nocodegen"><td>20</td><td><pre style="display:inline;"> &nbsp;ooAppInfo.Version;</pre></td></tr>
+<tr class="nocodegen"><td>21</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>22</td><td><pre style="display:inline;">type</pre></td></tr>
+<tr class="nocodegen"><td>23</td><td><pre style="display:inline;">{$REGION &apos;documentation&apos;}</pre></td></tr>
+<tr class="nocodegen"><td>24</td><td><pre style="display:inline;">{</pre></td></tr>
+<tr class="nocodegen"><td>25</td><td><pre style="display:inline;"> &nbsp;@abstract(Application information)</pre></td></tr>
+<tr class="nocodegen"><td>26</td><td><pre style="display:inline;"> &nbsp;Get all information detail from bianry file, includen execution parameters</pre></td></tr>
+<tr class="nocodegen"><td>27</td><td><pre style="display:inline;"> &nbsp;@member(Description Application description)</pre></td></tr>
+<tr class="nocodegen"><td>28</td><td><pre style="display:inline;"> &nbsp;@member(Command Executed command to run the application)</pre></td></tr>
+<tr class="nocodegen"><td>29</td><td><pre style="display:inline;"> &nbsp;@member(Path Folder path of application)</pre></td></tr>
+<tr class="nocodegen"><td>30</td><td><pre style="display:inline;"> &nbsp;@member(FileName Binary file name of application)</pre></td></tr>
+<tr class="nocodegen"><td>31</td><td><pre style="display:inline;"> &nbsp;@member(ParameterCount Number of parameters in command execution)</pre></td></tr>
+<tr class="nocodegen"><td>32</td><td><pre style="display:inline;"> &nbsp;@member(</pre></td></tr>
+<tr class="nocodegen"><td>33</td><td><pre style="display:inline;"> &nbsp; &nbsp;Parameter Get parameter item in list</pre></td></tr>
+<tr class="nocodegen"><td>34</td><td><pre style="display:inline;"> &nbsp; &nbsp;@param(Index The item index in list)</pre></td></tr>
+<tr class="nocodegen"><td>35</td><td><pre style="display:inline;"> &nbsp; &nbsp;@returns(@link(IAppParameter) object)</pre></td></tr>
+<tr class="nocodegen"><td>36</td><td><pre style="display:inline;"> &nbsp;)</pre></td></tr>
+<tr class="nocodegen"><td>37</td><td><pre style="display:inline;"> &nbsp;@member(InvalidParameters Check if any parameter is invalid)</pre></td></tr>
+<tr class="nocodegen"><td>38</td><td><pre style="display:inline;"> &nbsp;@member(</pre></td></tr>
+<tr class="nocodegen"><td>39</td><td><pre style="display:inline;"> &nbsp; &nbsp;Usage Command text description for an execution usage example.@br</pre></td></tr>
+<tr class="nocodegen"><td>40</td><td><pre style="display:inline;"> &nbsp; &nbsp;Some like:</pre></td></tr>
+<tr class="nocodegen"><td>41</td><td><pre style="display:inline;"> &nbsp; &nbsp;@longcode(</pre></td></tr>
+<tr class="nocodegen"><td>42</td><td><pre style="display:inline;"> &nbsp; &nbsp; &nbsp;DESCRIPTION:</pre></td></tr>
+<tr class="nocodegen"><td>43</td><td><pre style="display:inline;"> &nbsp; &nbsp; &nbsp; &nbsp;Application to test (v0.0.0.0)</pre></td></tr>
+<tr class="nocodegen"><td>44</td><td><pre style="display:inline;"> &nbsp; &nbsp; &nbsp;COMMAND:</pre></td></tr>
+<tr class="nocodegen"><td>45</td><td><pre style="display:inline;"> &nbsp; &nbsp; &nbsp; &nbsp;demo.exe</pre></td></tr>
+<tr class="nocodegen"><td>46</td><td><pre style="display:inline;"> &nbsp; &nbsp; &nbsp;PARAMETERS:</pre></td></tr>
+<tr class="nocodegen"><td>47</td><td><pre style="display:inline;"> &nbsp; &nbsp; &nbsp; &nbsp;NAME &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;REQUIRED &nbsp;DESCRIPTION</pre></td></tr>
+<tr class="nocodegen"><td>48</td><td><pre style="display:inline;"> &nbsp; &nbsp; &nbsp; &nbsp;-a &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; False &nbsp; &nbsp;The A parameter description.</pre></td></tr>
+<tr class="nocodegen"><td>49</td><td><pre style="display:inline;"> &nbsp; &nbsp; &nbsp; &nbsp;-b &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; False &nbsp; &nbsp;The B parameter.</pre></td></tr>
+<tr class="nocodegen"><td>50</td><td><pre style="display:inline;"> &nbsp; &nbsp; &nbsp; &nbsp;-c &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; False &nbsp; &nbsp;C cc.</pre></td></tr>
+<tr class="nocodegen"><td>51</td><td><pre style="display:inline;"> &nbsp; &nbsp; &nbsp; &nbsp;-onlytext &nbsp; &nbsp; &nbsp; &nbsp;False &nbsp; &nbsp;without value.</pre></td></tr>
+<tr class="nocodegen"><td>52</td><td><pre style="display:inline;"> &nbsp; &nbsp; &nbsp; &nbsp;-req &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; True &nbsp; &nbsp; Required.</pre></td></tr>
+<tr class="nocodegen"><td>53</td><td><pre style="display:inline;"> &nbsp; &nbsp; &nbsp;EXAMPLE:</pre></td></tr>
+<tr class="nocodegen"><td>54</td><td><pre style="display:inline;"> &nbsp; &nbsp; &nbsp; &nbsp;demo.exe [-a:test] [-b:1234] [-c:nones] [-onlytext] -req 123</pre></td></tr>
+<tr class="nocodegen"><td>55</td><td><pre style="display:inline;"> &nbsp; &nbsp;)</pre></td></tr>
+<tr class="nocodegen"><td>56</td><td><pre style="display:inline;"> &nbsp;)</pre></td></tr>
+<tr class="nocodegen"><td>57</td><td><pre style="display:inline;"> &nbsp;@member(Version Application version object)</pre></td></tr>
+<tr class="nocodegen"><td>58</td><td><pre style="display:inline;">}</pre></td></tr>
+<tr class="nocodegen"><td>59</td><td><pre style="display:inline;">{$ENDREGION}</pre></td></tr>
+<tr class="nocodegen"><td>60</td><td><pre style="display:inline;"> &nbsp;IAppInfo = interface</pre></td></tr>
+<tr class="nocodegen"><td>61</td><td><pre style="display:inline;"> &nbsp; &nbsp;[&apos;{22117E2D-C730-4610-BF12-E6B95C5B83FC}&apos;]</pre></td></tr>
+<tr class="nocodegen"><td>62</td><td><pre style="display:inline;"> &nbsp; &nbsp;function Description: String;</pre></td></tr>
+<tr class="nocodegen"><td>63</td><td><pre style="display:inline;"> &nbsp; &nbsp;function Command: String;</pre></td></tr>
+<tr class="nocodegen"><td>64</td><td><pre style="display:inline;"> &nbsp; &nbsp;function Path: String;</pre></td></tr>
+<tr class="nocodegen"><td>65</td><td><pre style="display:inline;"> &nbsp; &nbsp;function FileName: String;</pre></td></tr>
+<tr class="nocodegen"><td>66</td><td><pre style="display:inline;"> &nbsp; &nbsp;function ParameterCount: Integer;</pre></td></tr>
+<tr class="nocodegen"><td>67</td><td><pre style="display:inline;"> &nbsp; &nbsp;function Parameter(const Index: Integer): IAppParameter;</pre></td></tr>
+<tr class="nocodegen"><td>68</td><td><pre style="display:inline;"> &nbsp; &nbsp;function InvalidParameters: Boolean;</pre></td></tr>
+<tr class="nocodegen"><td>69</td><td><pre style="display:inline;"> &nbsp; &nbsp;function Usage: String;</pre></td></tr>
+<tr class="nocodegen"><td>70</td><td><pre style="display:inline;"> &nbsp; &nbsp;function Version: IAppVersion;</pre></td></tr>
+<tr class="nocodegen"><td>71</td><td><pre style="display:inline;"> &nbsp;end;</pre></td></tr>
+<tr class="nocodegen"><td>72</td><td><pre style="display:inline;">{$REGION &apos;documentation&apos;}</pre></td></tr>
+<tr class="nocodegen"><td>73</td><td><pre style="display:inline;">{</pre></td></tr>
+<tr class="nocodegen"><td>74</td><td><pre style="display:inline;"> &nbsp;@abstract(Implementation of @link(IAppInfo))</pre></td></tr>
+<tr class="nocodegen"><td>75</td><td><pre style="display:inline;"> &nbsp;@member(Description @seealso(IAppInfo.Description))</pre></td></tr>
+<tr class="nocodegen"><td>76</td><td><pre style="display:inline;"> &nbsp;@member(Command @seealso(IAppInfo.Command))</pre></td></tr>
+<tr class="nocodegen"><td>77</td><td><pre style="display:inline;"> &nbsp;@member(Path @seealso(IAppInfo.Path))</pre></td></tr>
+<tr class="nocodegen"><td>78</td><td><pre style="display:inline;"> &nbsp;@member(FileName @seealso(IAppInfo.FileName))</pre></td></tr>
+<tr class="nocodegen"><td>79</td><td><pre style="display:inline;"> &nbsp;@member(ParameterCount @seealso(IAppInfo.ParameterCount))</pre></td></tr>
+<tr class="nocodegen"><td>80</td><td><pre style="display:inline;"> &nbsp;@member(Parameter @seealso(IAppInfo.Parameter))</pre></td></tr>
+<tr class="nocodegen"><td>81</td><td><pre style="display:inline;"> &nbsp;@member(InvalidParameters @seealso(IAppInfo.InvalidParameters))</pre></td></tr>
+<tr class="nocodegen"><td>82</td><td><pre style="display:inline;"> &nbsp;@member(Usage @seealso(IAppInfo.Usage))</pre></td></tr>
+<tr class="nocodegen"><td>83</td><td><pre style="display:inline;"> &nbsp;@member(Version @seealso(IAppInfo.Version))</pre></td></tr>
+<tr class="nocodegen"><td>84</td><td><pre style="display:inline;"> &nbsp;@member(</pre></td></tr>
+<tr class="nocodegen"><td>85</td><td><pre style="display:inline;"> &nbsp; &nbsp;Create Object constructor</pre></td></tr>
+<tr class="nocodegen"><td>86</td><td><pre style="display:inline;"> &nbsp; &nbsp;@param(Description Optional application description)</pre></td></tr>
+<tr class="nocodegen"><td>87</td><td><pre style="display:inline;"> &nbsp; &nbsp;@param(Parameters Array of execution command parameters)</pre></td></tr>
+<tr class="nocodegen"><td>88</td><td><pre style="display:inline;"> &nbsp;)</pre></td></tr>
+<tr class="nocodegen"><td>89</td><td><pre style="display:inline;"> &nbsp;@member(Destroy Object destructor to free parameter list)</pre></td></tr>
+<tr class="nocodegen"><td>90</td><td><pre style="display:inline;"> &nbsp;@member(</pre></td></tr>
+<tr class="nocodegen"><td>91</td><td><pre style="display:inline;"> &nbsp; &nbsp;New Create a new @classname as interface</pre></td></tr>
+<tr class="nocodegen"><td>92</td><td><pre style="display:inline;"> &nbsp; &nbsp;@param(Description Optional application description)</pre></td></tr>
+<tr class="nocodegen"><td>93</td><td><pre style="display:inline;"> &nbsp; &nbsp;@param(Parameters Array of execution command parameters)</pre></td></tr>
+<tr class="nocodegen"><td>94</td><td><pre style="display:inline;"> &nbsp;)</pre></td></tr>
+<tr class="nocodegen"><td>95</td><td><pre style="display:inline;">}</pre></td></tr>
+<tr class="nocodegen"><td>96</td><td><pre style="display:inline;">{$ENDREGION}</pre></td></tr>
+<tr class="nocodegen"><td>97</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>98</td><td><pre style="display:inline;"> &nbsp;TAppInfo = class(TInterfacedObject, IAppInfo)</pre></td></tr>
+<tr class="nocodegen"><td>99</td><td><pre style="display:inline;"> &nbsp;strict private</pre></td></tr>
+<tr class="nocodegen"><td>100</td><td><pre style="display:inline;"> &nbsp; &nbsp;_Description: String;</pre></td></tr>
+<tr class="nocodegen"><td>101</td><td><pre style="display:inline;"> &nbsp; &nbsp;_ParamList: TAppParamList;</pre></td></tr>
+<tr class="nocodegen"><td>102</td><td><pre style="display:inline;"> &nbsp; &nbsp;_AppVersion: IAppVersion;</pre></td></tr>
+<tr class="nocodegen"><td>103</td><td><pre style="display:inline;"> &nbsp;private</pre></td></tr>
+<tr class="nocodegen"><td>104</td><td><pre style="display:inline;"> &nbsp; &nbsp;procedure BuildParameters;</pre></td></tr>
+<tr class="nocodegen"><td>105</td><td><pre style="display:inline;"> &nbsp; &nbsp;function ParameterUsage: String;</pre></td></tr>
+<tr class="nocodegen"><td>106</td><td><pre style="display:inline;"> &nbsp; &nbsp;function ExampleUsage: String;</pre></td></tr>
+<tr class="nocodegen"><td>107</td><td><pre style="display:inline;"> &nbsp;public</pre></td></tr>
+<tr class="nocodegen"><td>108</td><td><pre style="display:inline;"> &nbsp; &nbsp;function Command: String;</pre></td></tr>
+<tr class="nocodegen"><td>109</td><td><pre style="display:inline;"> &nbsp; &nbsp;function Description: String;</pre></td></tr>
+<tr class="nocodegen"><td>110</td><td><pre style="display:inline;"> &nbsp; &nbsp;function Path: String;</pre></td></tr>
+<tr class="nocodegen"><td>111</td><td><pre style="display:inline;"> &nbsp; &nbsp;function FileName: String;</pre></td></tr>
+<tr class="nocodegen"><td>112</td><td><pre style="display:inline;"> &nbsp; &nbsp;function ParameterCount: Integer;</pre></td></tr>
+<tr class="nocodegen"><td>113</td><td><pre style="display:inline;"> &nbsp; &nbsp;function Parameter(const Index: Integer): IAppParameter;</pre></td></tr>
+<tr class="nocodegen"><td>114</td><td><pre style="display:inline;"> &nbsp; &nbsp;function InvalidParameters: Boolean;</pre></td></tr>
+<tr class="nocodegen"><td>115</td><td><pre style="display:inline;"> &nbsp; &nbsp;function Usage: String;</pre></td></tr>
+<tr class="nocodegen"><td>116</td><td><pre style="display:inline;"> &nbsp; &nbsp;function Version: IAppVersion;</pre></td></tr>
+<tr class="nocodegen"><td>117</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>118</td><td><pre style="display:inline;"> &nbsp; &nbsp;constructor Create(const Description: String; const Parameters: array of IAppParameter);</pre></td></tr>
+<tr class="nocodegen"><td>119</td><td><pre style="display:inline;"> &nbsp; &nbsp;destructor Destroy; override;</pre></td></tr>
+<tr class="nocodegen"><td>120</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>121</td><td><pre style="display:inline;"> &nbsp; &nbsp;class function New(const Description: String; const Parameters: array of IAppParameter): IAppInfo;</pre></td></tr>
+<tr class="nocodegen"><td>122</td><td><pre style="display:inline;"> &nbsp;end;</pre></td></tr>
+<tr class="nocodegen"><td>123</td><td><pre style="display:inline;">{$REGION &apos;documentation&apos;}</pre></td></tr>
+<tr class="nocodegen"><td>124</td><td><pre style="display:inline;">{</pre></td></tr>
+<tr class="nocodegen"><td>125</td><td><pre style="display:inline;"> &nbsp;Create a new @link(IAppInfo) calling a simple function</pre></td></tr>
+<tr class="nocodegen"><td>126</td><td><pre style="display:inline;"> &nbsp;@param(Description Optional application description)</pre></td></tr>
+<tr class="nocodegen"><td>127</td><td><pre style="display:inline;"> &nbsp;@return(A new @link(IAppInfo) object)</pre></td></tr>
+<tr class="nocodegen"><td>128</td><td><pre style="display:inline;">}</pre></td></tr>
+<tr class="nocodegen"><td>129</td><td><pre style="display:inline;">{$ENDREGION}</pre></td></tr>
+<tr class="nocodegen"><td>130</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>131</td><td><pre style="display:inline;">function AppInfo(const Description: String = &apos;&apos;): IAppInfo;</pre></td></tr>
+<tr class="nocodegen"><td>132</td><td><pre style="display:inline;">{$REGION &apos;documentation&apos;}</pre></td></tr>
+<tr class="nocodegen"><td>133</td><td><pre style="display:inline;">{</pre></td></tr>
+<tr class="nocodegen"><td>134</td><td><pre style="display:inline;"> &nbsp;Create a new @link(IAppInfo) calling a simple function with extended parameters</pre></td></tr>
+<tr class="nocodegen"><td>135</td><td><pre style="display:inline;"> &nbsp;@param(Description Optional application description)</pre></td></tr>
+<tr class="nocodegen"><td>136</td><td><pre style="display:inline;"> &nbsp;@param(Parameters Array of execution command parameters)</pre></td></tr>
+<tr class="nocodegen"><td>137</td><td><pre style="display:inline;"> &nbsp;@return(A new @link(IAppInfo) object)</pre></td></tr>
+<tr class="nocodegen"><td>138</td><td><pre style="display:inline;">}</pre></td></tr>
+<tr class="nocodegen"><td>139</td><td><pre style="display:inline;">{$ENDREGION}</pre></td></tr>
+<tr class="nocodegen"><td>140</td><td><pre style="display:inline;">function AppInfoDefined(const Description: String; const Parameters: array of IAppParameter): IAppInfo;</pre></td></tr>
+<tr class="nocodegen"><td>141</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>142</td><td><pre style="display:inline;">implementation</pre></td></tr>
+<tr class="nocodegen"><td>143</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>144</td><td><pre style="display:inline;">function TAppInfo.Description: String;</pre></td></tr>
+<tr class="covered"><td>145</td><td><pre style="display:inline;">begin</pre></td></tr>
+<tr class="covered"><td>146</td><td><pre style="display:inline;"> &nbsp;Result := _Description;</pre></td></tr>
+<tr class="covered"><td>147</td><td><pre style="display:inline;">end;</pre></td></tr>
+<tr class="nocodegen"><td>148</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>149</td><td><pre style="display:inline;">function TAppInfo.FileName: String;</pre></td></tr>
+<tr class="covered"><td>150</td><td><pre style="display:inline;">begin</pre></td></tr>
+<tr class="covered"><td>151</td><td><pre style="display:inline;"> &nbsp;Result := ExtractFileName(ParamStr(0));</pre></td></tr>
+<tr class="covered"><td>152</td><td><pre style="display:inline;">end;</pre></td></tr>
+<tr class="nocodegen"><td>153</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>154</td><td><pre style="display:inline;">function TAppInfo.Path: String;</pre></td></tr>
+<tr class="covered"><td>155</td><td><pre style="display:inline;">begin</pre></td></tr>
+<tr class="covered"><td>156</td><td><pre style="display:inline;"> &nbsp;Result := IncludeTrailingPathDelimiter(ExtractFilePath(ParamStr(0)));</pre></td></tr>
+<tr class="covered"><td>157</td><td><pre style="display:inline;">end;</pre></td></tr>
+<tr class="nocodegen"><td>158</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>159</td><td><pre style="display:inline;">function TAppInfo.Version: IAppVersion;</pre></td></tr>
+<tr class="covered"><td>160</td><td><pre style="display:inline;">begin</pre></td></tr>
+<tr class="covered"><td>161</td><td><pre style="display:inline;"> &nbsp;if not Assigned(_AppVersion) then</pre></td></tr>
+<tr class="covered"><td>162</td><td><pre style="display:inline;"> &nbsp; &nbsp;_AppVersion := TAppVersion.New;</pre></td></tr>
+<tr class="covered"><td>163</td><td><pre style="display:inline;"> &nbsp;Result := _AppVersion;</pre></td></tr>
+<tr class="covered"><td>164</td><td><pre style="display:inline;">end;</pre></td></tr>
+<tr class="nocodegen"><td>165</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>166</td><td><pre style="display:inline;">function TAppInfo.Parameter(const Index: Integer): IAppParameter;</pre></td></tr>
+<tr class="covered"><td>167</td><td><pre style="display:inline;">begin</pre></td></tr>
+<tr class="covered"><td>168</td><td><pre style="display:inline;"> &nbsp;Result := _ParamList.Items[Index];</pre></td></tr>
+<tr class="covered"><td>169</td><td><pre style="display:inline;">end;</pre></td></tr>
+<tr class="nocodegen"><td>170</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>171</td><td><pre style="display:inline;">function TAppInfo.ParameterCount: Integer;</pre></td></tr>
+<tr class="nocodegen"><td>172</td><td><pre style="display:inline;">begin</pre></td></tr>
+<tr class="covered"><td>173</td><td><pre style="display:inline;"> &nbsp;Result := _ParamList.Count</pre></td></tr>
+<tr class="covered"><td>174</td><td><pre style="display:inline;">end;</pre></td></tr>
+<tr class="nocodegen"><td>175</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>176</td><td><pre style="display:inline;">function TAppInfo.Command: String;</pre></td></tr>
+<tr class="covered"><td>177</td><td><pre style="display:inline;">begin</pre></td></tr>
+<tr class="nocodegen"><td>178</td><td><pre style="display:inline;">{$WARN SYMBOL_PLATFORM OFF}</pre></td></tr>
+<tr class="nocodegen"><td>179</td><td><pre style="display:inline;">{$IFDEF MSWINDOWS}</pre></td></tr>
+<tr class="covered"><td>180</td><td><pre style="display:inline;"> &nbsp;Result := CmdLine;</pre></td></tr>
+<tr class="nocodegen"><td>181</td><td><pre style="display:inline;">{$ELSE}</pre></td></tr>
+<tr class="nocodegen"><td>182</td><td><pre style="display:inline;"> &nbsp;Result := EmptyStr;</pre></td></tr>
+<tr class="nocodegen"><td>183</td><td><pre style="display:inline;">{$ENDIF MSWINDOWS}</pre></td></tr>
+<tr class="nocodegen"><td>184</td><td><pre style="display:inline;">{$WARN SYMBOL_PLATFORM ON}</pre></td></tr>
+<tr class="covered"><td>185</td><td><pre style="display:inline;">end;</pre></td></tr>
+<tr class="nocodegen"><td>186</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>187</td><td><pre style="display:inline;">function TAppInfo.ParameterUsage: String;</pre></td></tr>
+<tr class="nocodegen"><td>188</td><td><pre style="display:inline;">var</pre></td></tr>
+<tr class="nocodegen"><td>189</td><td><pre style="display:inline;"> &nbsp;AppParameter: IAppParameter;</pre></td></tr>
+<tr class="covered"><td>190</td><td><pre style="display:inline;">begin</pre></td></tr>
+<tr class="covered"><td>191</td><td><pre style="display:inline;"> &nbsp;Result := EmptyStr;</pre></td></tr>
+<tr class="covered"><td>192</td><td><pre style="display:inline;"> &nbsp;for AppParameter in _ParamList do</pre></td></tr>
+<tr class="covered"><td>193</td><td><pre style="display:inline;"> &nbsp; &nbsp;if Length(AppParameter.Usage) &gt; 0 then</pre></td></tr>
+<tr class="covered"><td>194</td><td><pre style="display:inline;"> &nbsp; &nbsp; &nbsp;Result := Result + Format(&apos; &nbsp;-%-15s %-8s %s.&apos;, [AppParameter.Name, BoolToStr(AppParameter.Required, True),</pre></td></tr>
+<tr class="covered"><td>195</td><td><pre style="display:inline;"> &nbsp; &nbsp; &nbsp; &nbsp;AppParameter.Description]) + sLineBreak;</pre></td></tr>
+<tr class="covered"><td>196</td><td><pre style="display:inline;"> &nbsp;Result := Trim(Result);</pre></td></tr>
+<tr class="covered"><td>197</td><td><pre style="display:inline;">end;</pre></td></tr>
+<tr class="nocodegen"><td>198</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>199</td><td><pre style="display:inline;">function TAppInfo.ExampleUsage: String;</pre></td></tr>
+<tr class="nocodegen"><td>200</td><td><pre style="display:inline;">var</pre></td></tr>
+<tr class="nocodegen"><td>201</td><td><pre style="display:inline;"> &nbsp;AppParameter: IAppParameter;</pre></td></tr>
+<tr class="covered"><td>202</td><td><pre style="display:inline;">begin</pre></td></tr>
+<tr class="covered"><td>203</td><td><pre style="display:inline;"> &nbsp;Result := FileName;</pre></td></tr>
+<tr class="covered"><td>204</td><td><pre style="display:inline;"> &nbsp;for AppParameter in _ParamList do</pre></td></tr>
+<tr class="covered"><td>205</td><td><pre style="display:inline;"> &nbsp; &nbsp;if Length(AppParameter.Usage) &gt; 0 then</pre></td></tr>
+<tr class="nocodegen"><td>206</td><td><pre style="display:inline;"> &nbsp; &nbsp;begin</pre></td></tr>
+<tr class="covered"><td>207</td><td><pre style="display:inline;"> &nbsp; &nbsp; &nbsp;if AppParameter.Required then</pre></td></tr>
+<tr class="covered"><td>208</td><td><pre style="display:inline;"> &nbsp; &nbsp; &nbsp; &nbsp;Result := Result + &apos; &apos; + AppParameter.Usage</pre></td></tr>
+<tr class="nocodegen"><td>209</td><td><pre style="display:inline;"> &nbsp; &nbsp; &nbsp;else</pre></td></tr>
+<tr class="covered"><td>210</td><td><pre style="display:inline;"> &nbsp; &nbsp; &nbsp; &nbsp;Result := Result + &apos; [&apos; + AppParameter.Usage + &apos;]&apos;;</pre></td></tr>
+<tr class="covered"><td>211</td><td><pre style="display:inline;"> &nbsp; &nbsp;end;</pre></td></tr>
+<tr class="covered"><td>212</td><td><pre style="display:inline;">end;</pre></td></tr>
+<tr class="nocodegen"><td>213</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>214</td><td><pre style="display:inline;">function TAppInfo.Usage: String;</pre></td></tr>
+<tr class="nocodegen"><td>215</td><td><pre style="display:inline;">const</pre></td></tr>
+<tr class="nocodegen"><td>216</td><td><pre style="display:inline;"> &nbsp;rsUsage = //</pre></td></tr>
+<tr class="nocodegen"><td>217</td><td><pre style="display:inline;"> &nbsp; &nbsp;&apos;DESCRIPTION: &apos; + sLineBreak + //</pre></td></tr>
+<tr class="nocodegen"><td>218</td><td><pre style="display:inline;"> &nbsp; &nbsp;&apos; &nbsp;%s (v%s)&apos; + sLineBreak + //</pre></td></tr>
+<tr class="nocodegen"><td>219</td><td><pre style="display:inline;"> &nbsp; &nbsp;&apos;COMMAND:&apos; + sLineBreak + //</pre></td></tr>
+<tr class="nocodegen"><td>220</td><td><pre style="display:inline;"> &nbsp; &nbsp;&apos; &nbsp;%s&apos; + sLineBreak + //</pre></td></tr>
+<tr class="nocodegen"><td>221</td><td><pre style="display:inline;"> &nbsp; &nbsp;&apos;PARAMETERS:&apos; + sLineBreak + //</pre></td></tr>
+<tr class="nocodegen"><td>222</td><td><pre style="display:inline;"> &nbsp; &nbsp;&apos; &nbsp;NAME &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;REQUIRED &nbsp;DESCRIPTION&apos; + sLineBreak + //</pre></td></tr>
+<tr class="nocodegen"><td>223</td><td><pre style="display:inline;"> &nbsp; &nbsp;&apos; &nbsp;%s&apos; + sLineBreak + //</pre></td></tr>
+<tr class="nocodegen"><td>224</td><td><pre style="display:inline;"> &nbsp; &nbsp;&apos;EXAMPLE:&apos; + sLineBreak + //</pre></td></tr>
+<tr class="nocodegen"><td>225</td><td><pre style="display:inline;"> &nbsp; &nbsp;&apos; &nbsp;%s&apos;;</pre></td></tr>
+<tr class="covered"><td>226</td><td><pre style="display:inline;">begin</pre></td></tr>
+<tr class="covered"><td>227</td><td><pre style="display:inline;"> &nbsp;Result := Format(rsUsage, [Description, Version.AsString, FileName, ParameterUsage, ExampleUsage]);</pre></td></tr>
+<tr class="covered"><td>228</td><td><pre style="display:inline;">end;</pre></td></tr>
+<tr class="nocodegen"><td>229</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>230</td><td><pre style="display:inline;">function TAppInfo.InvalidParameters: Boolean;</pre></td></tr>
+<tr class="nocodegen"><td>231</td><td><pre style="display:inline;">var</pre></td></tr>
+<tr class="nocodegen"><td>232</td><td><pre style="display:inline;"> &nbsp;AppParameter: IAppParameter;</pre></td></tr>
+<tr class="covered"><td>233</td><td><pre style="display:inline;">begin</pre></td></tr>
+<tr class="covered"><td>234</td><td><pre style="display:inline;"> &nbsp;Result := False;</pre></td></tr>
+<tr class="covered"><td>235</td><td><pre style="display:inline;"> &nbsp;for AppParameter in _ParamList do</pre></td></tr>
+<tr class="nocodegen"><td>236</td><td><pre style="display:inline;"> &nbsp;begin</pre></td></tr>
+<tr class="covered"><td>237</td><td><pre style="display:inline;"> &nbsp; &nbsp;Result := AppParameter.Required and (Length(AppParameter.Value) = 0);</pre></td></tr>
+<tr class="covered"><td>238</td><td><pre style="display:inline;"> &nbsp; &nbsp;if Result then</pre></td></tr>
+<tr class="nocodegen"><td>239</td><td><pre style="display:inline;"> &nbsp; &nbsp; &nbsp;Break;</pre></td></tr>
+<tr class="covered"><td>240</td><td><pre style="display:inline;"> &nbsp;end;</pre></td></tr>
+<tr class="covered"><td>241</td><td><pre style="display:inline;">end;</pre></td></tr>
+<tr class="nocodegen"><td>242</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>243</td><td><pre style="display:inline;">procedure TAppInfo.BuildParameters;</pre></td></tr>
+<tr class="nocodegen"><td>244</td><td><pre style="display:inline;">var</pre></td></tr>
+<tr class="nocodegen"><td>245</td><td><pre style="display:inline;"> &nbsp;i: Integer;</pre></td></tr>
+<tr class="covered"><td>246</td><td><pre style="display:inline;">begin</pre></td></tr>
+<tr class="covered"><td>247</td><td><pre style="display:inline;"> &nbsp;for i := 1 to ParamCount do</pre></td></tr>
+<tr class="covered"><td>248</td><td><pre style="display:inline;"> &nbsp; &nbsp;_ParamList.Add(TAppParameterParser.New(ParamStr(i)).Parse);</pre></td></tr>
+<tr class="covered"><td>249</td><td><pre style="display:inline;">end;</pre></td></tr>
+<tr class="nocodegen"><td>250</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>251</td><td><pre style="display:inline;">constructor TAppInfo.Create(const Description: String; const Parameters: array of IAppParameter);</pre></td></tr>
+<tr class="nocodegen"><td>252</td><td><pre style="display:inline;">var</pre></td></tr>
+<tr class="nocodegen"><td>253</td><td><pre style="display:inline;"> &nbsp;AppParameter: IAppParameter;</pre></td></tr>
+<tr class="covered"><td>254</td><td><pre style="display:inline;">begin</pre></td></tr>
+<tr class="covered"><td>255</td><td><pre style="display:inline;"> &nbsp;_Description := Description;</pre></td></tr>
+<tr class="covered"><td>256</td><td><pre style="display:inline;"> &nbsp;_ParamList := TAppParamList.Create;</pre></td></tr>
+<tr class="covered"><td>257</td><td><pre style="display:inline;"> &nbsp;for AppParameter in Parameters do</pre></td></tr>
+<tr class="covered"><td>258</td><td><pre style="display:inline;"> &nbsp; &nbsp;_ParamList.Add(AppParameter);</pre></td></tr>
+<tr class="covered"><td>259</td><td><pre style="display:inline;"> &nbsp;BuildParameters;</pre></td></tr>
+<tr class="covered"><td>260</td><td><pre style="display:inline;">end;</pre></td></tr>
+<tr class="nocodegen"><td>261</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>262</td><td><pre style="display:inline;">destructor TAppInfo.Destroy;</pre></td></tr>
+<tr class="covered"><td>263</td><td><pre style="display:inline;">begin</pre></td></tr>
+<tr class="covered"><td>264</td><td><pre style="display:inline;"> &nbsp;_ParamList.Free;</pre></td></tr>
+<tr class="covered"><td>265</td><td><pre style="display:inline;"> &nbsp;inherited;</pre></td></tr>
+<tr class="covered"><td>266</td><td><pre style="display:inline;">end;</pre></td></tr>
+<tr class="nocodegen"><td>267</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>268</td><td><pre style="display:inline;">class function TAppInfo.New(const Description: String; const Parameters: array of IAppParameter): IAppInfo;</pre></td></tr>
+<tr class="covered"><td>269</td><td><pre style="display:inline;">begin</pre></td></tr>
+<tr class="covered"><td>270</td><td><pre style="display:inline;"> &nbsp;Result := TAppInfo.Create(Description, Parameters);</pre></td></tr>
+<tr class="covered"><td>271</td><td><pre style="display:inline;">end;</pre></td></tr>
+<tr class="nocodegen"><td>272</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>273</td><td><pre style="display:inline;">function AppInfo(const Description: String = &apos;&apos;): IAppInfo;</pre></td></tr>
+<tr class="nocodegen"><td>274</td><td><pre style="display:inline;">begin</pre></td></tr>
+<tr class="nocodegen"><td>275</td><td><pre style="display:inline;"> &nbsp;Result := TAppInfo.New(Description, []);</pre></td></tr>
+<tr class="nocodegen"><td>276</td><td><pre style="display:inline;">end;</pre></td></tr>
+<tr class="nocodegen"><td>277</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>278</td><td><pre style="display:inline;">function AppInfoDefined(const Description: String; const Parameters: array of IAppParameter): IAppInfo;</pre></td></tr>
+<tr class="covered"><td>279</td><td><pre style="display:inline;">begin</pre></td></tr>
+<tr class="covered"><td>280</td><td><pre style="display:inline;"> &nbsp;Result := TAppInfo.New(Description, Parameters);</pre></td></tr>
+<tr class="covered"><td>281</td><td><pre style="display:inline;">end;</pre></td></tr>
+<tr class="nocodegen"><td>282</td><td><pre style="display:inline;"></pre></td></tr>
+<tr class="nocodegen"><td>283</td><td><pre style="display:inline;">end.</pre></td></tr>
+</table>
+</body>
+</html>

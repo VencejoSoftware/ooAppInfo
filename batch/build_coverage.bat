@@ -1,0 +1,1 @@
+call "..\..\ooBatch\code\build_code_coverage.bat" ..\test test.exe

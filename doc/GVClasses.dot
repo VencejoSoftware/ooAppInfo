@@ -1,0 +1,21 @@
+DiGraph Classes {
+  IAppInfo -> IInterface
+  IAppInfo [href="ooAppInfo.IAppInfo.html"]
+  IAppParameter -> IInterface
+  IAppParameter [href="ooAppInfo.Parameter.IAppParameter.html"]
+  IAppParameterParser -> IInterface
+  IAppParameterParser [href="ooAppInfo.Parameter.Parser.IAppParameterParser.html"]
+  IAppVersion -> IInterface
+  IAppVersion [href="ooAppInfo.Version.IAppVersion.html"]
+  TAppInfo -> TInterfacedObject
+  TAppInfo [href="ooAppInfo.TAppInfo.html"]
+  TAppParameter -> TInterfacedObject
+  TAppParameter [href="ooAppInfo.Parameter.TAppParameter.html"]
+  TAppParameterParser -> TInterfacedObject
+  TAppParameterParser [href="ooAppInfo.Parameter.Parser.TAppParameterParser.html"]
+  TAppVersion -> TInterfacedObject
+  TAppVersion [href="ooAppInfo.Version.TAppVersion.html"]
+  TList -> TObject
+  TAppParamList -> TList
+  TAppParamList [href="ooAppInfo.Parameter.TAppParamList.html"]
+}

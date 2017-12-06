@@ -1,0 +1,1835 @@
+Reading units from the following file: ..\test\code_coverage_units.lst
+Will track coverage for:ooAppInfo
+Will track coverage for:ooAppInfo.Parameter
+Will track coverage for:ooAppInfo.Parameter.Parser
+Will track coverage for:ooAppInfo.Version
+Trying to start ..\test\build\debug\test.exe with the Parameters :console
+Started successfully
+Create Process:1204 name:..\test\build\debug\test.exe
+Adding breakpoints for module:..\test\build\debug\test.exe
+Module name "TextTestRunner" did not match module from address name "AgiledoxTestRunner" at address:0021EC0B
+Module name "AgiledoxTestRunner" did not match module from address name "Vcl.Buttons" at address:002202C8
+Module name "GUITestRunner" did not match module from address name "ooRunTest" at address:0022BE86
+Module name "ooRunTest" did not match module from address name "ooAppInfo.Parameter" at address:0022BF37
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2274
+Adding breakpoint for ooAppInfo.Parameter.TAppParamList.Add in ooAppInfo.Parameter.pas
+Creating class info for ooAppInfo.Parameter class TAppParamList
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 117 BreakPoint at:0062E970
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2275
+Adding breakpoint for ooAppInfo.Parameter.TAppParamList.Add in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 118 BreakPoint at:0062E995
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2276
+Adding breakpoint for ooAppInfo.Parameter.TAppParamList.Add in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 119 BreakPoint at:0062E9AC
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2277
+Adding breakpoint for ooAppInfo.Parameter.TAppParamList.Add in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 120 BreakPoint at:0062E9B2
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2278
+Adding breakpoint for ooAppInfo.Parameter.TAppParamList.Add in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 122 BreakPoint at:0062E9CB
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2279
+Adding breakpoint for ooAppInfo.Parameter.TAppParamList.Add in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 123 BreakPoint at:0062EA2F
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2280
+Adding breakpoint for ooAppInfo.Parameter.TAppParamList.Exists in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 126 BreakPoint at:0062EA64
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2281
+Adding breakpoint for ooAppInfo.Parameter.TAppParamList.Exists in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 127 BreakPoint at:0062EA6A
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2282
+Adding breakpoint for ooAppInfo.Parameter.TAppParamList.Exists in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 128 BreakPoint at:0062EA77
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2283
+Adding breakpoint for ooAppInfo.Parameter.TAppParamList.IndexOf in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 133 BreakPoint at:0062EA7C
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2284
+Adding breakpoint for ooAppInfo.Parameter.TAppParamList.IndexOf in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 134 BreakPoint at:0062EAA4
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2285
+Adding breakpoint for ooAppInfo.Parameter.TAppParamList.IndexOf in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 135 BreakPoint at:0062EAAB
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2286
+Adding breakpoint for ooAppInfo.Parameter.TAppParamList.IndexOf in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 137 BreakPoint at:0062EACE
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2287
+Adding breakpoint for ooAppInfo.Parameter.TAppParamList.IndexOf in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 139 BreakPoint at:0062EB61
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2288
+Adding breakpoint for ooAppInfo.Parameter.TAppParamList.IndexOf in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 140 BreakPoint at:0062EB67
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2289
+Adding breakpoint for ooAppInfo.Parameter.TAppParamList.IndexOf in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 142 BreakPoint at:0062EB69
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2290
+Adding breakpoint for ooAppInfo.Parameter.TAppParamList.IndexOf in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 135 BreakPoint at:0062EB6C
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2291
+Adding breakpoint for ooAppInfo.Parameter.TAppParamList.IndexOf in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 143 BreakPoint at:0062EB75
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2292
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.Name in ooAppInfo.Parameter.pas
+Creating class info for ooAppInfo.Parameter class TAppParameter
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 146 BreakPoint at:0062EBB0
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2293
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.Name in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 147 BreakPoint at:0062EBB6
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2294
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.Name in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 148 BreakPoint at:0062EBC0
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2295
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.Description in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 151 BreakPoint at:0062EBC4
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2296
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.Description in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 152 BreakPoint at:0062EBCA
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2297
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.Description in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 153 BreakPoint at:0062EBD4
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2298
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.UpdateValue in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 156 BreakPoint at:0062EBD8
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2299
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.UpdateValue in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 157 BreakPoint at:0062EBDE
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2300
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.UpdateValue in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 158 BreakPoint at:0062EBE8
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2301
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.Usage in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 161 BreakPoint at:0062EBEC
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2302
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.Usage in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 162 BreakPoint at:0062EBF2
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2303
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.Usage in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 163 BreakPoint at:0062EBFC
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2304
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.Value in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 166 BreakPoint at:0062EC00
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2305
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.Value in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 167 BreakPoint at:0062EC06
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2306
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.Value in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 168 BreakPoint at:0062EC10
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2307
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.Required in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 172 BreakPoint at:0062EC14
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2308
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.Required in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 173 BreakPoint at:0062EC18
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2309
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.Create in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 176 BreakPoint at:0062EC1C
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2310
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.Create in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 177 BreakPoint at:0062EC34
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2311
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.Create in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 178 BreakPoint at:0062EC3E
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2312
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.Create in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 179 BreakPoint at:0062EC49
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2313
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.Create in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 180 BreakPoint at:0062EC54
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2314
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.Create in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 181 BreakPoint at:0062EC5B
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2315
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.New in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 185 BreakPoint at:0062EC7C
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2316
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.New in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 186 BreakPoint at:0062EC88
+Setting BreakPoint for module: ooAppInfo.Parameter unit ooAppInfo.Parameter.pas addr:2317
+Adding breakpoint for ooAppInfo.Parameter.TAppParameter.New in ooAppInfo.Parameter.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.pas line 187 BreakPoint at:0062ECAE
+Module name "ooAppInfo.Parameter.Mock" did not match module from address name "ooAppInfo.Parameter.Parser" at address:0022F61F
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2360
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.IsParamBegin in ooAppInfo.Parameter.Parser.pas
+Creating class info for ooAppInfo.Parameter.Parser class TAppParameterParser
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 71 BreakPoint at:00630864
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2361
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.IsParamBegin in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 72 BreakPoint at:00630865
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2362
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.IsParamBegin in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 73 BreakPoint at:00630880
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2363
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.IsValueBegin in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 76 BreakPoint at:006308A4
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2364
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.IsValueBegin in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 77 BreakPoint at:006308A5
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2365
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.IsValueBegin in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 78 BreakPoint at:006308C0
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2366
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.ParseName in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 83 BreakPoint at:006308E4
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2367
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.ParseName in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 84 BreakPoint at:00630909
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2368
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.ParseName in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 85 BreakPoint at:00630919
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2369
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.ParseName in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 87 BreakPoint at:00630956
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2370
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.ParseName in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 89 BreakPoint at:00630964
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2371
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.ParseName in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 91 BreakPoint at:00630972
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2372
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.ParseName in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 85 BreakPoint at:0063098A
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2373
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.ParseName in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 94 BreakPoint at:0063098F
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2374
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.ParseValue in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 100 BreakPoint at:006309BC
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2375
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.ParseValue in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 101 BreakPoint at:006309E1
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2376
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.ParseValue in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 102 BreakPoint at:006309F1
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2377
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.ParseValue in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 103 BreakPoint at:006309F5
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2378
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.ParseValue in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 105 BreakPoint at:00630A32
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2379
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.ParseValue in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 107 BreakPoint at:00630A40
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2380
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.ParseValue in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 108 BreakPoint at:00630A46
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2381
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.ParseValue in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 109 BreakPoint at:00630A5E
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2382
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.ParseValue in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 103 BreakPoint at:00630A7B
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2383
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.ParseValue in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 112 BreakPoint at:00630A80
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2384
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.Parse in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 115 BreakPoint at:00630AAC
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2385
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.Parse in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 116 BreakPoint at:00630AC7
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2386
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.Parse in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 117 BreakPoint at:00630AF1
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2387
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.Parse in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 118 BreakPoint at:00630B05
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2388
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.Create in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 121 BreakPoint at:00630B30
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2389
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.Create in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 122 BreakPoint at:00630B45
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2390
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.Create in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 123 BreakPoint at:00630B4F
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2391
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.New in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 126 BreakPoint at:00630B6C
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2392
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.New in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 127 BreakPoint at:00630B72
+Setting BreakPoint for module: ooAppInfo.Parameter.Parser unit ooAppInfo.Parameter.Parser.pas addr:2393
+Adding breakpoint for ooAppInfo.Parameter.Parser.TAppParameterParser.New in ooAppInfo.Parameter.Parser.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Parameter.Parser.pas line 128 BreakPoint at:00630B90
+Module name "ooAppInfo.Parameter.Parser" did not match module from address name "ooAppInfo.Parameter.Parser_test" at address:0022FB9A
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2455
+Adding breakpoint for ooAppInfo.Version.TAppVersion.Build in ooAppInfo.Version.pas
+Creating class info for ooAppInfo.Version class TAppVersion
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 79 BreakPoint at:00632144
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2456
+Adding breakpoint for ooAppInfo.Version.TAppVersion.Build in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 80 BreakPoint at:00632148
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2457
+Adding breakpoint for ooAppInfo.Version.TAppVersion.Major in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 84 BreakPoint at:0063214C
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2458
+Adding breakpoint for ooAppInfo.Version.TAppVersion.Major in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 85 BreakPoint at:00632150
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2459
+Adding breakpoint for ooAppInfo.Version.TAppVersion.Minor in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 89 BreakPoint at:00632154
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2460
+Adding breakpoint for ooAppInfo.Version.TAppVersion.Minor in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 90 BreakPoint at:00632158
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2461
+Adding breakpoint for ooAppInfo.Version.TAppVersion.Release in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 94 BreakPoint at:0063215C
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2462
+Adding breakpoint for ooAppInfo.Version.TAppVersion.Release in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 95 BreakPoint at:00632160
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2463
+Adding breakpoint for ooAppInfo.Version.TAppVersion.AsString in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 98 BreakPoint at:00632164
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2464
+Adding breakpoint for ooAppInfo.Version.TAppVersion.AsString in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 99 BreakPoint at:0063216D
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2465
+Adding breakpoint for ooAppInfo.Version.TAppVersion.AsString in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 100 BreakPoint at:006321CD
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2466
+Adding breakpoint for ooAppInfo.Version.TAppVersion.GetBuildInfo in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 107 BreakPoint at:006321F8
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2467
+Adding breakpoint for ooAppInfo.Version.TAppVersion.GetBuildInfo in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 108 BreakPoint at:00632205
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2468
+Adding breakpoint for ooAppInfo.Version.TAppVersion.GetBuildInfo in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 109 BreakPoint at:0063221B
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2469
+Adding breakpoint for ooAppInfo.Version.TAppVersion.GetBuildInfo in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 111 BreakPoint at:00632225
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2470
+Adding breakpoint for ooAppInfo.Version.TAppVersion.GetBuildInfo in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 112 BreakPoint at:00632230
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2471
+Adding breakpoint for ooAppInfo.Version.TAppVersion.GetBuildInfo in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 113 BreakPoint at:0063223E
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2472
+Adding breakpoint for ooAppInfo.Version.TAppVersion.GetBuildInfo in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 115 BreakPoint at:00632252
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2473
+Adding breakpoint for ooAppInfo.Version.TAppVersion.GetBuildInfo in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 116 BreakPoint at:00632268
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2474
+Adding breakpoint for ooAppInfo.Version.TAppVersion.GetBuildInfo in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 118 BreakPoint at:0063226B
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2475
+Adding breakpoint for ooAppInfo.Version.TAppVersion.GetBuildInfo in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 119 BreakPoint at:00632282
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2476
+Adding breakpoint for ooAppInfo.Version.TAppVersion.GetBuildInfo in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 120 BreakPoint at:0063229A
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2477
+Adding breakpoint for ooAppInfo.Version.TAppVersion.GetBuildInfo in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 121 BreakPoint at:006322B4
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2478
+Adding breakpoint for ooAppInfo.Version.TAppVersion.GetBuildInfo in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 125 BreakPoint at:006322D9
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2479
+Adding breakpoint for ooAppInfo.Version.TAppVersion.GetBuildInfo in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 128 BreakPoint at:006322EC
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2480
+Adding breakpoint for ooAppInfo.Version.TAppVersion.Create in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 131 BreakPoint at:006322FC
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2481
+Adding breakpoint for ooAppInfo.Version.TAppVersion.Create in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 132 BreakPoint at:0063230E
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2482
+Adding breakpoint for ooAppInfo.Version.TAppVersion.Create in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 133 BreakPoint at:00632327
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2483
+Adding breakpoint for ooAppInfo.Version.TAppVersion.New in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 136 BreakPoint at:00632344
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2484
+Adding breakpoint for ooAppInfo.Version.TAppVersion.New in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 137 BreakPoint at:0063235A
+Setting BreakPoint for module: ooAppInfo.Version unit ooAppInfo.Version.pas addr:2485
+Adding breakpoint for ooAppInfo.Version.TAppVersion.New in ooAppInfo.Version.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.Version.pas line 138 BreakPoint at:00632383
+Module name "ooAppInfo.Version" did not match module from address name "ooAppInfo.Version_test" at address:002313AB
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2502
+Adding breakpoint for ooAppInfo.TAppInfo.Description in ooAppInfo.pas
+Creating class info for ooAppInfo class TAppInfo
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 145 BreakPoint at:00632D88
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2503
+Adding breakpoint for ooAppInfo.TAppInfo.Description in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 146 BreakPoint at:00632D8E
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2504
+Adding breakpoint for ooAppInfo.TAppInfo.Description in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 147 BreakPoint at:00632D98
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2505
+Adding breakpoint for ooAppInfo.TAppInfo.FileName in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 150 BreakPoint at:00632D9C
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2506
+Adding breakpoint for ooAppInfo.TAppInfo.FileName in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 151 BreakPoint at:00632DB2
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2507
+Adding breakpoint for ooAppInfo.TAppInfo.FileName in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 152 BreakPoint at:00632DC6
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2508
+Adding breakpoint for ooAppInfo.TAppInfo.Path in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 155 BreakPoint at:00632DE8
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2509
+Adding breakpoint for ooAppInfo.TAppInfo.Path in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 156 BreakPoint at:00632E00
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2510
+Adding breakpoint for ooAppInfo.TAppInfo.Path in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 157 BreakPoint at:00632E1F
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2511
+Adding breakpoint for ooAppInfo.TAppInfo.Version in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 160 BreakPoint at:00632E48
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2512
+Adding breakpoint for ooAppInfo.TAppInfo.Version in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 161 BreakPoint at:00632E61
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2513
+Adding breakpoint for ooAppInfo.TAppInfo.Version in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 162 BreakPoint at:00632E67
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2514
+Adding breakpoint for ooAppInfo.TAppInfo.Version in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 163 BreakPoint at:00632E7F
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2515
+Adding breakpoint for ooAppInfo.TAppInfo.Version in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 164 BreakPoint at:00632E89
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2516
+Adding breakpoint for ooAppInfo.TAppInfo.Parameter in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 167 BreakPoint at:00632EAC
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2517
+Adding breakpoint for ooAppInfo.TAppInfo.Parameter in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 168 BreakPoint at:00632EC6
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2518
+Adding breakpoint for ooAppInfo.TAppInfo.Parameter in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 169 BreakPoint at:00632F1E
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2519
+Adding breakpoint for ooAppInfo.TAppInfo.ParameterCount in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 173 BreakPoint at:00632F44
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2520
+Adding breakpoint for ooAppInfo.TAppInfo.ParameterCount in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 174 BreakPoint at:00632F4A
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2521
+Adding breakpoint for ooAppInfo.TAppInfo.Command in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 177 BreakPoint at:00632F4C
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2522
+Adding breakpoint for ooAppInfo.TAppInfo.Command in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 180 BreakPoint at:00632F4F
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2523
+Adding breakpoint for ooAppInfo.TAppInfo.Command in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 185 BreakPoint at:00632F5E
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2524
+Adding breakpoint for ooAppInfo.TAppInfo.ParameterUsage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 190 BreakPoint at:00632F60
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2525
+Adding breakpoint for ooAppInfo.TAppInfo.ParameterUsage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 191 BreakPoint at:00632F92
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2526
+Adding breakpoint for ooAppInfo.TAppInfo.ParameterUsage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 192 BreakPoint at:00632FA2
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2527
+Adding breakpoint for ooAppInfo.TAppInfo.ParameterUsage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 193 BreakPoint at:00632FD4
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2528
+Adding breakpoint for ooAppInfo.TAppInfo.ParameterUsage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 194 BreakPoint at:00632FF1
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2529
+Adding breakpoint for ooAppInfo.TAppInfo.ParameterUsage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 192 BreakPoint at:00633067
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2530
+Adding breakpoint for ooAppInfo.TAppInfo.ParameterUsage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 195 BreakPoint at:00633084
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2531
+Adding breakpoint for ooAppInfo.TAppInfo.ParameterUsage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 196 BreakPoint at:0063309C
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2532
+Adding breakpoint for ooAppInfo.TAppInfo.ParameterUsage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 197 BreakPoint at:006330B4
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2533
+Adding breakpoint for ooAppInfo.TAppInfo.ExampleUsage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 202 BreakPoint at:00633138
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2534
+Adding breakpoint for ooAppInfo.TAppInfo.ExampleUsage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 203 BreakPoint at:00633157
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2535
+Adding breakpoint for ooAppInfo.TAppInfo.ExampleUsage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 204 BreakPoint at:00633160
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2536
+Adding breakpoint for ooAppInfo.TAppInfo.ExampleUsage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 205 BreakPoint at:0063318F
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2537
+Adding breakpoint for ooAppInfo.TAppInfo.ExampleUsage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 207 BreakPoint at:006331AC
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2538
+Adding breakpoint for ooAppInfo.TAppInfo.ExampleUsage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 208 BreakPoint at:006331B8
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2539
+Adding breakpoint for ooAppInfo.TAppInfo.ExampleUsage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 210 BreakPoint at:006331DB
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2540
+Adding breakpoint for ooAppInfo.TAppInfo.ExampleUsage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 204 BreakPoint at:00633201
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2541
+Adding breakpoint for ooAppInfo.TAppInfo.ExampleUsage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 211 BreakPoint at:0063321E
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2542
+Adding breakpoint for ooAppInfo.TAppInfo.ExampleUsage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 212 BreakPoint at:00633236
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2543
+Adding breakpoint for ooAppInfo.TAppInfo.Usage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 226 BreakPoint at:0063329C
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2544
+Adding breakpoint for ooAppInfo.TAppInfo.Usage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 227 BreakPoint at:006332CA
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2545
+Adding breakpoint for ooAppInfo.TAppInfo.Usage in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 228 BreakPoint at:0063334C
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2546
+Adding breakpoint for ooAppInfo.TAppInfo.InvalidParameters in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 233 BreakPoint at:00633484
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2547
+Adding breakpoint for ooAppInfo.TAppInfo.InvalidParameters in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 234 BreakPoint at:006334A3
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2548
+Adding breakpoint for ooAppInfo.TAppInfo.InvalidParameters in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 235 BreakPoint at:006334A7
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2549
+Adding breakpoint for ooAppInfo.TAppInfo.InvalidParameters in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 237 BreakPoint at:006334D6
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2550
+Adding breakpoint for ooAppInfo.TAppInfo.InvalidParameters in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 238 BreakPoint at:00633507
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2551
+Adding breakpoint for ooAppInfo.TAppInfo.InvalidParameters in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 235 BreakPoint at:0063350D
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2552
+Adding breakpoint for ooAppInfo.TAppInfo.InvalidParameters in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 240 BreakPoint at:00633526
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2553
+Adding breakpoint for ooAppInfo.TAppInfo.InvalidParameters in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 241 BreakPoint at:0063353E
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2554
+Adding breakpoint for ooAppInfo.TAppInfo.BuildParameters in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 246 BreakPoint at:00633570
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2555
+Adding breakpoint for ooAppInfo.TAppInfo.BuildParameters in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 247 BreakPoint at:0063358C
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2556
+Adding breakpoint for ooAppInfo.TAppInfo.BuildParameters in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 248 BreakPoint at:0063359C
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2557
+Adding breakpoint for ooAppInfo.TAppInfo.BuildParameters in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 247 BreakPoint at:006335D0
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2558
+Adding breakpoint for ooAppInfo.TAppInfo.BuildParameters in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 249 BreakPoint at:006335D3
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2559
+Adding breakpoint for ooAppInfo.TAppInfo.Create in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 254 BreakPoint at:00633608
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2560
+Adding breakpoint for ooAppInfo.TAppInfo.Create in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 255 BreakPoint at:0063363A
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2561
+Adding breakpoint for ooAppInfo.TAppInfo.Create in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 256 BreakPoint at:00633644
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2562
+Adding breakpoint for ooAppInfo.TAppInfo.Create in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 257 BreakPoint at:00633653
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2563
+Adding breakpoint for ooAppInfo.TAppInfo.Create in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 258 BreakPoint at:00633672
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2564
+Adding breakpoint for ooAppInfo.TAppInfo.Create in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 257 BreakPoint at:0063367D
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2565
+Adding breakpoint for ooAppInfo.TAppInfo.Create in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 259 BreakPoint at:00633682
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2566
+Adding breakpoint for ooAppInfo.TAppInfo.Create in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 260 BreakPoint at:00633689
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2567
+Adding breakpoint for ooAppInfo.TAppInfo.Destroy in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 263 BreakPoint at:006336C8
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2568
+Adding breakpoint for ooAppInfo.TAppInfo.Destroy in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 264 BreakPoint at:006336D3
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2569
+Adding breakpoint for ooAppInfo.TAppInfo.Destroy in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 265 BreakPoint at:006336DB
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2570
+Adding breakpoint for ooAppInfo.TAppInfo.Destroy in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 266 BreakPoint at:006336E6
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2571
+Adding breakpoint for ooAppInfo.TAppInfo.New in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 269 BreakPoint at:006336F4
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2572
+Adding breakpoint for ooAppInfo.TAppInfo.New in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 270 BreakPoint at:006336FD
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2573
+Adding breakpoint for ooAppInfo.TAppInfo.New in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 271 BreakPoint at:00633721
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2574
+Adding breakpoint for ooAppInfo.AppInfoDefined in ooAppInfo.pas
+Creating class info for ooAppInfo class AppInfoDefined
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 279 BreakPoint at:00633728
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2575
+Adding breakpoint for ooAppInfo.AppInfoDefined in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 280 BreakPoint at:00633734
+Setting BreakPoint for module: ooAppInfo unit ooAppInfo.pas addr:2576
+Adding breakpoint for ooAppInfo.AppInfoDefined in ooAppInfo.pas
+TBreakPoint.Activate:
+Activate ooAppInfo.pas line 281 BreakPoint at:00633747
+Module name "ooAppInfo" did not match module from address name "ooAppInfo_test" at address:00232755
+Module AgiledoxTestRunner skipped
+Module GuiTestRunner skipped
+Module ooAppInfo.Parameter.Mock skipped
+Module ooAppInfo.Parameter.Parser_test skipped
+Module ooAppInfo.Parameter_test skipped
+Module ooAppInfo.ParameterList_test skipped
+Module ooAppInfo.Version_test skipped
+Module ooAppInfo_test skipped
+Module ooRunTest skipped
+Module System.Generics.Collections skipped
+Module System.Generics.Defaults skipped
+Module test skipped
+Module TestFramework skipped
+Module TextTestRunner skipped
+Done adding  BreakPoints
+Loading DLL at addr:77B50000 (ntdll.dll) size :875520
+Done adding  BreakPoints
+UnLoading DLL:77B50000
+UnLoading DLL:77B50000
+UnLoading DLL:77B50000
+UnLoading DLL:77B50000
+Loading DLL at addr:76E20000 (C:\Windows\syswow64\kernel32.dll) size :851968
+Done adding  BreakPoints
+Loading DLL at addr:76F30000 (C:\Windows\syswow64\KERNELBASE.dll) size :260096
+Done adding  BreakPoints
+Loading DLL at addr:773E0000 (C:\Windows\syswow64\oleaut32.dll) size :540160
+Done adding  BreakPoints
+Loading DLL at addr:76F80000 (C:\Windows\syswow64\ole32.dll) size :1329664
+Done adding  BreakPoints
+Loading DLL at addr:75BA0000 (C:\Windows\syswow64\msvcrt.dll) size :648704
+Done adding  BreakPoints
+Loading DLL at addr:75C50000 (C:\Windows\syswow64\GDI32.dll) size :299008
+Done adding  BreakPoints
+Loading DLL at addr:770E0000 (C:\Windows\syswow64\USER32.dll) size :445440
+Done adding  BreakPoints
+Loading DLL at addr:75CE0000 (C:\Windows\syswow64\ADVAPI32.dll) size :466944
+Done adding  BreakPoints
+Loading DLL at addr:75780000 (C:\Windows\SysWOW64\sechost.dll) size :77312
+Done adding  BreakPoints
+Loading DLL at addr:75D80000 (C:\Windows\syswow64\RPCRT4.dll) size :622080
+Done adding  BreakPoints
+Loading DLL at addr:756B0000 (C:\Windows\syswow64\SspiCli.dll) size :88576
+Done adding  BreakPoints
+Loading DLL at addr:756A0000 (C:\Windows\syswow64\CRYPTBASE.dll) size :31232
+Done adding  BreakPoints
+Loading DLL at addr:758A0000 (C:\Windows\syswow64\LPK.dll) size :22016
+Done adding  BreakPoints
+Loading DLL at addr:75B00000 (C:\Windows\syswow64\USP10.dll) size :369664
+Done adding  BreakPoints
+Loading DLL at addr:72F30000 (C:\Windows\SysWOW64\version.dll) size :17408
+Done adding  BreakPoints
+Loading DLL at addr:73F20000 (C:\Windows\SysWOW64\netapi32.dll) size :52224
+Done adding  BreakPoints
+Loading DLL at addr:73F10000 (C:\Windows\SysWOW64\netutils.dll) size :17408
+Done adding  BreakPoints
+Loading DLL at addr:73EF0000 (C:\Windows\SysWOW64\srvcli.dll) size :51200
+Done adding  BreakPoints
+Loading DLL at addr:73EE0000 (C:\Windows\SysWOW64\wkscli.dll) size :41472
+Done adding  BreakPoints
+Loading DLL at addr:75F80000 (C:\Windows\syswow64\shell32.dll) size :3966464
+Done adding  BreakPoints
+Loading DLL at addr:76D30000 (C:\Windows\syswow64\SHLWAPI.dll) size :331264
+Done adding  BreakPoints
+Loading DLL at addr:73D70000 (C:\Windows\SysWOW64\winspool.drv) size :215040
+Done adding  BreakPoints
+Couldn't find BreakPoint for exception address:77BF103B
+Loading DLL at addr:758B0000 (C:\Windows\SysWOW64\IMM32.DLL) size :93696
+Done adding  BreakPoints
+Loading DLL at addr:71DB0000 (C:\Windows\SysWOW64\uxtheme.dll) size :226816
+Done adding  BreakPoints
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 126
+Clearing BreakPoint at 00630B6C
+De-Activate ooAppInfo.Parameter.Parser.pas line 126 BreakPoint at:00630B6C
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 127
+Clearing BreakPoint at 00630B72
+De-Activate ooAppInfo.Parameter.Parser.pas line 127 BreakPoint at:00630B72
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 121
+Clearing BreakPoint at 00630B30
+De-Activate ooAppInfo.Parameter.Parser.pas line 121 BreakPoint at:00630B30
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 122
+Clearing BreakPoint at 00630B45
+De-Activate ooAppInfo.Parameter.Parser.pas line 122 BreakPoint at:00630B45
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 123
+Clearing BreakPoint at 00630B4F
+De-Activate ooAppInfo.Parameter.Parser.pas line 123 BreakPoint at:00630B4F
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 128
+Clearing BreakPoint at 00630B90
+De-Activate ooAppInfo.Parameter.Parser.pas line 128 BreakPoint at:00630B90
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 115
+Clearing BreakPoint at 00630AAC
+De-Activate ooAppInfo.Parameter.Parser.pas line 115 BreakPoint at:00630AAC
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 116
+Clearing BreakPoint at 00630AC7
+De-Activate ooAppInfo.Parameter.Parser.pas line 116 BreakPoint at:00630AC7
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 83
+Clearing BreakPoint at 006308E4
+De-Activate ooAppInfo.Parameter.Parser.pas line 83 BreakPoint at:006308E4
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 84
+Clearing BreakPoint at 00630909
+De-Activate ooAppInfo.Parameter.Parser.pas line 84 BreakPoint at:00630909
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 85
+Clearing BreakPoint at 00630919
+De-Activate ooAppInfo.Parameter.Parser.pas line 85 BreakPoint at:00630919
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 87
+Clearing BreakPoint at 00630956
+De-Activate ooAppInfo.Parameter.Parser.pas line 87 BreakPoint at:00630956
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 71
+Clearing BreakPoint at 00630864
+De-Activate ooAppInfo.Parameter.Parser.pas line 71 BreakPoint at:00630864
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 72
+Clearing BreakPoint at 00630865
+De-Activate ooAppInfo.Parameter.Parser.pas line 72 BreakPoint at:00630865
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 73
+Clearing BreakPoint at 00630880
+De-Activate ooAppInfo.Parameter.Parser.pas line 73 BreakPoint at:00630880
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 85
+Clearing BreakPoint at 0063098A
+De-Activate ooAppInfo.Parameter.Parser.pas line 85 BreakPoint at:0063098A
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 89
+Clearing BreakPoint at 00630964
+De-Activate ooAppInfo.Parameter.Parser.pas line 89 BreakPoint at:00630964
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 76
+Clearing BreakPoint at 006308A4
+De-Activate ooAppInfo.Parameter.Parser.pas line 76 BreakPoint at:006308A4
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 77
+Clearing BreakPoint at 006308A5
+De-Activate ooAppInfo.Parameter.Parser.pas line 77 BreakPoint at:006308A5
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 78
+Clearing BreakPoint at 006308C0
+De-Activate ooAppInfo.Parameter.Parser.pas line 78 BreakPoint at:006308C0
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 91
+Clearing BreakPoint at 00630972
+De-Activate ooAppInfo.Parameter.Parser.pas line 91 BreakPoint at:00630972
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 94
+Clearing BreakPoint at 0063098F
+De-Activate ooAppInfo.Parameter.Parser.pas line 94 BreakPoint at:0063098F
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 185
+Clearing BreakPoint at 0062EC7C
+De-Activate ooAppInfo.Parameter.pas line 185 BreakPoint at:0062EC7C
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 186
+Clearing BreakPoint at 0062EC88
+De-Activate ooAppInfo.Parameter.pas line 186 BreakPoint at:0062EC88
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 176
+Clearing BreakPoint at 0062EC1C
+De-Activate ooAppInfo.Parameter.pas line 176 BreakPoint at:0062EC1C
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 177
+Clearing BreakPoint at 0062EC34
+De-Activate ooAppInfo.Parameter.pas line 177 BreakPoint at:0062EC34
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 178
+Clearing BreakPoint at 0062EC3E
+De-Activate ooAppInfo.Parameter.pas line 178 BreakPoint at:0062EC3E
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 179
+Clearing BreakPoint at 0062EC49
+De-Activate ooAppInfo.Parameter.pas line 179 BreakPoint at:0062EC49
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 180
+Clearing BreakPoint at 0062EC54
+De-Activate ooAppInfo.Parameter.pas line 180 BreakPoint at:0062EC54
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 181
+Clearing BreakPoint at 0062EC5B
+De-Activate ooAppInfo.Parameter.pas line 181 BreakPoint at:0062EC5B
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 187
+Clearing BreakPoint at 0062ECAE
+De-Activate ooAppInfo.Parameter.pas line 187 BreakPoint at:0062ECAE
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 117
+Clearing BreakPoint at 00630AF1
+De-Activate ooAppInfo.Parameter.Parser.pas line 117 BreakPoint at:00630AF1
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 100
+Clearing BreakPoint at 006309BC
+De-Activate ooAppInfo.Parameter.Parser.pas line 100 BreakPoint at:006309BC
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 101
+Clearing BreakPoint at 006309E1
+De-Activate ooAppInfo.Parameter.Parser.pas line 101 BreakPoint at:006309E1
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 102
+Clearing BreakPoint at 006309F1
+De-Activate ooAppInfo.Parameter.Parser.pas line 102 BreakPoint at:006309F1
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 103
+Clearing BreakPoint at 006309F5
+De-Activate ooAppInfo.Parameter.Parser.pas line 103 BreakPoint at:006309F5
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 105
+Clearing BreakPoint at 00630A32
+De-Activate ooAppInfo.Parameter.Parser.pas line 105 BreakPoint at:00630A32
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 103
+Clearing BreakPoint at 00630A7B
+De-Activate ooAppInfo.Parameter.Parser.pas line 103 BreakPoint at:00630A7B
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 107
+Clearing BreakPoint at 00630A40
+De-Activate ooAppInfo.Parameter.Parser.pas line 107 BreakPoint at:00630A40
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 109
+Clearing BreakPoint at 00630A5E
+De-Activate ooAppInfo.Parameter.Parser.pas line 109 BreakPoint at:00630A5E
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 112
+Clearing BreakPoint at 00630A80
+De-Activate ooAppInfo.Parameter.Parser.pas line 112 BreakPoint at:00630A80
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 156
+Clearing BreakPoint at 0062EBD8
+De-Activate ooAppInfo.Parameter.pas line 156 BreakPoint at:0062EBD8
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 157
+Clearing BreakPoint at 0062EBDE
+De-Activate ooAppInfo.Parameter.pas line 157 BreakPoint at:0062EBDE
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 158
+Clearing BreakPoint at 0062EBE8
+De-Activate ooAppInfo.Parameter.pas line 158 BreakPoint at:0062EBE8
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 118
+Clearing BreakPoint at 00630B05
+De-Activate ooAppInfo.Parameter.Parser.pas line 118 BreakPoint at:00630B05
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 146
+Clearing BreakPoint at 0062EBB0
+De-Activate ooAppInfo.Parameter.pas line 146 BreakPoint at:0062EBB0
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 147
+Clearing BreakPoint at 0062EBB6
+De-Activate ooAppInfo.Parameter.pas line 147 BreakPoint at:0062EBB6
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 148
+Clearing BreakPoint at 0062EBC0
+De-Activate ooAppInfo.Parameter.pas line 148 BreakPoint at:0062EBC0
+Adding coverage:ooAppInfo.Parameter.Parser.pas (ooAppInfo.Parameter.Parser) 108
+Clearing BreakPoint at 00630A46
+De-Activate ooAppInfo.Parameter.Parser.pas line 108 BreakPoint at:00630A46
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 166
+Clearing BreakPoint at 0062EC00
+De-Activate ooAppInfo.Parameter.pas line 166 BreakPoint at:0062EC00
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 167
+Clearing BreakPoint at 0062EC06
+De-Activate ooAppInfo.Parameter.pas line 167 BreakPoint at:0062EC06
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 168
+Clearing BreakPoint at 0062EC10
+De-Activate ooAppInfo.Parameter.pas line 168 BreakPoint at:0062EC10
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 151
+Clearing BreakPoint at 0062EBC4
+De-Activate ooAppInfo.Parameter.pas line 151 BreakPoint at:0062EBC4
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 152
+Clearing BreakPoint at 0062EBCA
+De-Activate ooAppInfo.Parameter.pas line 152 BreakPoint at:0062EBCA
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 153
+Clearing BreakPoint at 0062EBD4
+De-Activate ooAppInfo.Parameter.pas line 153 BreakPoint at:0062EBD4
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 161
+Clearing BreakPoint at 0062EBEC
+De-Activate ooAppInfo.Parameter.pas line 161 BreakPoint at:0062EBEC
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 162
+Clearing BreakPoint at 0062EBF2
+De-Activate ooAppInfo.Parameter.pas line 162 BreakPoint at:0062EBF2
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 163
+Clearing BreakPoint at 0062EBFC
+De-Activate ooAppInfo.Parameter.pas line 163 BreakPoint at:0062EBFC
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 172
+Clearing BreakPoint at 0062EC14
+De-Activate ooAppInfo.Parameter.pas line 172 BreakPoint at:0062EC14
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 173
+Clearing BreakPoint at 0062EC18
+De-Activate ooAppInfo.Parameter.pas line 173 BreakPoint at:0062EC18
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 117
+Clearing BreakPoint at 0062E970
+De-Activate ooAppInfo.Parameter.pas line 117 BreakPoint at:0062E970
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 118
+Clearing BreakPoint at 0062E995
+De-Activate ooAppInfo.Parameter.pas line 118 BreakPoint at:0062E995
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 133
+Clearing BreakPoint at 0062EA7C
+De-Activate ooAppInfo.Parameter.pas line 133 BreakPoint at:0062EA7C
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 134
+Clearing BreakPoint at 0062EAA4
+De-Activate ooAppInfo.Parameter.pas line 134 BreakPoint at:0062EAA4
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 135
+Clearing BreakPoint at 0062EAAB
+De-Activate ooAppInfo.Parameter.pas line 135 BreakPoint at:0062EAAB
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 143
+Clearing BreakPoint at 0062EB75
+De-Activate ooAppInfo.Parameter.pas line 143 BreakPoint at:0062EB75
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 119
+Clearing BreakPoint at 0062E9AC
+De-Activate ooAppInfo.Parameter.pas line 119 BreakPoint at:0062E9AC
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 120
+Clearing BreakPoint at 0062E9B2
+De-Activate ooAppInfo.Parameter.pas line 120 BreakPoint at:0062E9B2
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 123
+Clearing BreakPoint at 0062EA2F
+De-Activate ooAppInfo.Parameter.pas line 123 BreakPoint at:0062EA2F
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 137
+Clearing BreakPoint at 0062EACE
+De-Activate ooAppInfo.Parameter.pas line 137 BreakPoint at:0062EACE
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 142
+Clearing BreakPoint at 0062EB69
+De-Activate ooAppInfo.Parameter.pas line 142 BreakPoint at:0062EB69
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 135
+Clearing BreakPoint at 0062EB6C
+De-Activate ooAppInfo.Parameter.pas line 135 BreakPoint at:0062EB6C
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 139
+Clearing BreakPoint at 0062EB61
+De-Activate ooAppInfo.Parameter.pas line 139 BreakPoint at:0062EB61
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 140
+Clearing BreakPoint at 0062EB67
+De-Activate ooAppInfo.Parameter.pas line 140 BreakPoint at:0062EB67
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 126
+Clearing BreakPoint at 0062EA64
+De-Activate ooAppInfo.Parameter.pas line 126 BreakPoint at:0062EA64
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 127
+Clearing BreakPoint at 0062EA6A
+De-Activate ooAppInfo.Parameter.pas line 127 BreakPoint at:0062EA6A
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 128
+Clearing BreakPoint at 0062EA77
+De-Activate ooAppInfo.Parameter.pas line 128 BreakPoint at:0062EA77
+Adding coverage:ooAppInfo.Parameter.pas (ooAppInfo.Parameter) 122
+Clearing BreakPoint at 0062E9CB
+De-Activate ooAppInfo.Parameter.pas line 122 BreakPoint at:0062E9CB
+Adding coverage:ooAppInfo.Version.pas (ooAppInfo.Version) 136
+Clearing BreakPoint at 00632344
+De-Activate ooAppInfo.Version.pas line 136 BreakPoint at:00632344
+Adding coverage:ooAppInfo.Version.pas (ooAppInfo.Version) 137
+Clearing BreakPoint at 0063235A
+De-Activate ooAppInfo.Version.pas line 137 BreakPoint at:0063235A
+Adding coverage:ooAppInfo.Version.pas (ooAppInfo.Version) 131
+Clearing BreakPoint at 006322FC
+De-Activate ooAppInfo.Version.pas line 131 BreakPoint at:006322FC
+Adding coverage:ooAppInfo.Version.pas (ooAppInfo.Version) 132
+Clearing BreakPoint at 0063230E
+De-Activate ooAppInfo.Version.pas line 132 BreakPoint at:0063230E
+Adding coverage:ooAppInfo.Version.pas (ooAppInfo.Version) 107
+Clearing BreakPoint at 006321F8
+De-Activate ooAppInfo.Version.pas line 107 BreakPoint at:006321F8
+Adding coverage:ooAppInfo.Version.pas (ooAppInfo.Version) 108
+Clearing BreakPoint at 00632205
+De-Activate ooAppInfo.Version.pas line 108 BreakPoint at:00632205
+Adding coverage:ooAppInfo.Version.pas (ooAppInfo.Version) 109
+Clearing BreakPoint at 0063221B
+De-Activate ooAppInfo.Version.pas line 109 BreakPoint at:0063221B
+Adding coverage:ooAppInfo.Version.pas (ooAppInfo.Version) 128
+Clearing BreakPoint at 006322EC
+De-Activate ooAppInfo.Version.pas line 128 BreakPoint at:006322EC
+Adding coverage:ooAppInfo.Version.pas (ooAppInfo.Version) 133
+Clearing BreakPoint at 00632327
+De-Activate ooAppInfo.Version.pas line 133 BreakPoint at:00632327
+Adding coverage:ooAppInfo.Version.pas (ooAppInfo.Version) 138
+Clearing BreakPoint at 00632383
+De-Activate ooAppInfo.Version.pas line 138 BreakPoint at:00632383
+Adding coverage:ooAppInfo.Version.pas (ooAppInfo.Version) 84
+Clearing BreakPoint at 0063214C
+De-Activate ooAppInfo.Version.pas line 84 BreakPoint at:0063214C
+Adding coverage:ooAppInfo.Version.pas (ooAppInfo.Version) 85
+Clearing BreakPoint at 00632150
+De-Activate ooAppInfo.Version.pas line 85 BreakPoint at:00632150
+EXCEPTION CODE:0EEDFADE
+Address:76F3C41F
+EXCEPTION flags:00000001
+---------------Stack trace --------------
+Module : ..\test\build\debug\test.exe Stack frame:006327B0
+After line:ooAppInfo.Version_test line 44
+Module : ..\test\build\debug\test.exe Stack frame:00619E52
+Exact line:TestFramework line 1769
+Module : ..\test\build\debug\test.exe Stack frame:0061AAFD
+Exact line:TestFramework line 1920
+Module : ..\test\build\debug\test.exe Stack frame:006327B5
+Exact line:ooAppInfo.Version_test line 44
+Module : ..\test\build\debug\test.exe Stack frame:0061C795
+Exact line:TestFramework line 2336
+Module : ..\test\build\debug\test.exe Stack frame:0061C954
+Exact line:TestFramework line 2365
+Module : ..\test\build\debug\test.exe Stack frame:00618313
+Exact line:TestFramework line 1198
+Module : ..\test\build\debug\test.exe Stack frame:006185AD
+After line:TestFramework line 1275
+Module : ..\test\build\debug\test.exe Stack frame:00619A80
+Exact line:TestFramework line 1722
+Module : ..\test\build\debug\test.exe Stack frame:0061C7FA
+Exact line:TestFramework line 2349
+Module : ..\test\build\debug\test.exe Stack frame:0061D83F
+Exact line:TestFramework line 2610
+Module : ..\test\build\debug\test.exe Stack frame:00618313
+Exact line:TestFramework line 1198
+Module : ..\test\build\debug\test.exe Stack frame:006185AD
+After line:TestFramework line 1275
+Module : ..\test\build\debug\test.exe Stack frame:00619A80
+Exact line:TestFramework line 1722
+Module : ..\test\build\debug\test.exe Stack frame:0061D83F
+Exact line:TestFramework line 2610
+Module : ..\test\build\debug\test.exe Stack frame:00618313
+Exact line:TestFramework line 1198
+Module : ..\test\build\debug\test.exe Stack frame:006185AD
+After line:TestFramework line 1275
+Module : ..\test\build\debug\test.exe Stack frame:00619A80
+Exact line:TestFramework line 1722
+Module : ..\test\build\debug\test.exe Stack frame:00618E4D
+After line:TestFramework line 1425
+Module : ..\test\build\debug\test.exe Stack frame:0061948A
+Exact line:TestFramework line 1525
+Module : ..\test\build\debug\test.exe Stack frame:0061E4A4
+Exact line:TestFramework line 2908
+Module : ..\test\build\debug\test.exe Stack frame:0062102D
+After line:AgiledoxTestRunner line 300
+Module : ..\test\build\debug\test.exe Stack frame:00621171
+After line:AgiledoxTestRunner line 324
+Module : ..\test\build\debug\test.exe Stack frame:0062CEE7
+Exact line:ooRunTest line 68
+Module : C:\Windows\syswow64\kernel32.dll Stack frame:76E333AA
+Module : C:\Windows\syswow64\kernel32.dll - no MAP information exists
+Module : ntdll.dll Stack frame:77B89F72
+Module : ntdll.dll - no MAP information exists
+Module : ntdll.dll Stack frame:77B89F45
+Module : ntdll.dll - no MAP information exists
+---------------End of Stack trace --------------
+Adding coverage:ooAppInfo.Version.pas (ooAppInfo.Version) 89
+Clearing BreakPoint at 00632154
+De-Activate ooAppInfo.Version.pas line 89 BreakPoint at:00632154
+Adding coverage:ooAppInfo.Version.pas (ooAppInfo.Version) 90
+Clearing BreakPoint at 00632158
+De-Activate ooAppInfo.Version.pas line 90 BreakPoint at:00632158
+EXCEPTION CODE:0EEDFADE
+Address:76F3C41F
+EXCEPTION flags:00000001
+---------------Stack trace --------------
+Module : ..\test\build\debug\test.exe Stack frame:00632810
+After line:ooAppInfo.Version_test line 49
+Module : ..\test\build\debug\test.exe Stack frame:00619E52
+Exact line:TestFramework line 1769
+Module : ..\test\build\debug\test.exe Stack frame:0061AAFD
+Exact line:TestFramework line 1920
+Module : ..\test\build\debug\test.exe Stack frame:00632815
+Exact line:ooAppInfo.Version_test line 49
+Module : ..\test\build\debug\test.exe Stack frame:0061C795
+Exact line:TestFramework line 2336
+Module : ..\test\build\debug\test.exe Stack frame:0061C954
+Exact line:TestFramework line 2365
+Module : ..\test\build\debug\test.exe Stack frame:00618313
+Exact line:TestFramework line 1198
+Module : ..\test\build\debug\test.exe Stack frame:006185AD
+After line:TestFramework line 1275
+Module : ..\test\build\debug\test.exe Stack frame:00619A80
+Exact line:TestFramework line 1722
+Module : ..\test\build\debug\test.exe Stack frame:0061C7FA
+Exact line:TestFramework line 2349
+Module : ..\test\build\debug\test.exe Stack frame:0061D83F
+Exact line:TestFramework line 2610
+Module : ..\test\build\debug\test.exe Stack frame:00618313
+Exact line:TestFramework line 1198
+Module : ..\test\build\debug\test.exe Stack frame:006185AD
+After line:TestFramework line 1275
+Module : ..\test\build\debug\test.exe Stack frame:00619A80
+Exact line:TestFramework line 1722
+Module : ..\test\build\debug\test.exe Stack frame:0061D83F
+Exact line:TestFramework line 2610
+Module : ..\test\build\debug\test.exe Stack frame:00618313
+Exact line:TestFramework line 1198
+Module : ..\test\build\debug\test.exe Stack frame:006185AD
+After line:TestFramework line 1275
+Module : ..\test\build\debug\test.exe Stack frame:00619A80
+Exact line:TestFramework line 1722
+Module : ..\test\build\debug\test.exe Stack frame:00618E4D
+After line:TestFramework line 1425
+Module : ..\test\build\debug\test.exe Stack frame:0061948A
+Exact line:TestFramework line 1525
+Module : ..\test\build\debug\test.exe Stack frame:0061E4A4
+Exact line:TestFramework line 2908
+Module : ..\test\build\debug\test.exe Stack frame:0062102D
+After line:AgiledoxTestRunner line 300
+Module : ..\test\build\debug\test.exe Stack frame:00621171
+After line:AgiledoxTestRunner line 324
+Module : ..\test\build\debug\test.exe Stack frame:0062CEE7
+Exact line:ooRunTest line 68
+Module : C:\Windows\syswow64\kernel32.dll Stack frame:76E333AA
+Module : C:\Windows\syswow64\kernel32.dll - no MAP information exists
+Module : ntdll.dll Stack frame:77B89F72
+Module : ntdll.dll - no MAP information exists
+Module : ntdll.dll Stack frame:77B89F45
+Module : ntdll.dll - no MAP information exists
+---------------End of Stack trace --------------
+Adding coverage:ooAppInfo.Version.pas (ooAppInfo.Version) 94
+Clearing BreakPoint at 0063215C
+De-Activate ooAppInfo.Version.pas line 94 BreakPoint at:0063215C
+Adding coverage:ooAppInfo.Version.pas (ooAppInfo.Version) 95
+Clearing BreakPoint at 00632160
+De-Activate ooAppInfo.Version.pas line 95 BreakPoint at:00632160
+EXCEPTION CODE:0EEDFADE
+Address:76F3C41F
+EXCEPTION flags:00000001
+---------------Stack trace --------------
+Module : ..\test\build\debug\test.exe Stack frame:00632870
+After line:ooAppInfo.Version_test line 54
+Module : ..\test\build\debug\test.exe Stack frame:00619E52
+Exact line:TestFramework line 1769
+Module : ..\test\build\debug\test.exe Stack frame:0061AAFD
+Exact line:TestFramework line 1920
+Module : ..\test\build\debug\test.exe Stack frame:00632875
+Exact line:ooAppInfo.Version_test line 54
+Module : ..\test\build\debug\test.exe Stack frame:0061C795
+Exact line:TestFramework line 2336
+Module : ..\test\build\debug\test.exe Stack frame:0061C954
+Exact line:TestFramework line 2365
+Module : ..\test\build\debug\test.exe Stack frame:00618313
+Exact line:TestFramework line 1198
+Module : ..\test\build\debug\test.exe Stack frame:006185AD
+After line:TestFramework line 1275
+Module : ..\test\build\debug\test.exe Stack frame:00619A80
+Exact line:TestFramework line 1722
+Module : ..\test\build\debug\test.exe Stack frame:0061C7FA
+Exact line:TestFramework line 2349
+Module : ..\test\build\debug\test.exe Stack frame:0061D83F
+Exact line:TestFramework line 2610
+Module : ..\test\build\debug\test.exe Stack frame:00618313
+Exact line:TestFramework line 1198
+Module : ..\test\build\debug\test.exe Stack frame:006185AD
+After line:TestFramework line 1275
+Module : ..\test\build\debug\test.exe Stack frame:00619A80
+Exact line:TestFramework line 1722
+Module : ..\test\build\debug\test.exe Stack frame:0061D83F
+Exact line:TestFramework line 2610
+Module : ..\test\build\debug\test.exe Stack frame:00618313
+Exact line:TestFramework line 1198
+Module : ..\test\build\debug\test.exe Stack frame:006185AD
+After line:TestFramework line 1275
+Module : ..\test\build\debug\test.exe Stack frame:00619A80
+Exact line:TestFramework line 1722
+Module : ..\test\build\debug\test.exe Stack frame:00618E4D
+After line:TestFramework line 1425
+Module : ..\test\build\debug\test.exe Stack frame:0061948A
+Exact line:TestFramework line 1525
+Module : ..\test\build\debug\test.exe Stack frame:0061E4A4
+Exact line:TestFramework line 2908
+Module : ..\test\build\debug\test.exe Stack frame:0062102D
+After line:AgiledoxTestRunner line 300
+Module : ..\test\build\debug\test.exe Stack frame:00621171
+After line:AgiledoxTestRunner line 324
+Module : ..\test\build\debug\test.exe Stack frame:0062CEE7
+Exact line:ooRunTest line 68
+Module : C:\Windows\syswow64\kernel32.dll Stack frame:76E333AA
+Module : C:\Windows\syswow64\kernel32.dll - no MAP information exists
+Module : ntdll.dll Stack frame:77B89F72
+Module : ntdll.dll - no MAP information exists
+Module : ntdll.dll Stack frame:77B89F45
+Module : ntdll.dll - no MAP information exists
+---------------End of Stack trace --------------
+Adding coverage:ooAppInfo.Version.pas (ooAppInfo.Version) 79
+Clearing BreakPoint at 00632144
+De-Activate ooAppInfo.Version.pas line 79 BreakPoint at:00632144
+Adding coverage:ooAppInfo.Version.pas (ooAppInfo.Version) 80
+Clearing BreakPoint at 00632148
+De-Activate ooAppInfo.Version.pas line 80 BreakPoint at:00632148
+EXCEPTION CODE:0EEDFADE
+Address:76F3C41F
+EXCEPTION flags:00000001
+---------------Stack trace --------------
+Module : ..\test\build\debug\test.exe Stack frame:00632750
+After line:ooAppInfo.Version_test line 39
+Module : ..\test\build\debug\test.exe Stack frame:00619E52
+Exact line:TestFramework line 1769
+Module : ..\test\build\debug\test.exe Stack frame:0061AAFD
+Exact line:TestFramework line 1920
+Module : ..\test\build\debug\test.exe Stack frame:00632755
+Exact line:ooAppInfo.Version_test line 39
+Module : ..\test\build\debug\test.exe Stack frame:0061C795
+Exact line:TestFramework line 2336
+Module : ..\test\build\debug\test.exe Stack frame:0061C954
+Exact line:TestFramework line 2365
+Module : ..\test\build\debug\test.exe Stack frame:00618313
+Exact line:TestFramework line 1198
+Module : ..\test\build\debug\test.exe Stack frame:006185AD
+After line:TestFramework line 1275
+Module : ..\test\build\debug\test.exe Stack frame:00619A80
+Exact line:TestFramework line 1722
+Module : ..\test\build\debug\test.exe Stack frame:0061C7FA
+Exact line:TestFramework line 2349
+Module : ..\test\build\debug\test.exe Stack frame:0061D83F
+Exact line:TestFramework line 2610
+Module : ..\test\build\debug\test.exe Stack frame:00618313
+Exact line:TestFramework line 1198
+Module : ..\test\build\debug\test.exe Stack frame:006185AD
+After line:TestFramework line 1275
+Module : ..\test\build\debug\test.exe Stack frame:00619A80
+Exact line:TestFramework line 1722
+Module : ..\test\build\debug\test.exe Stack frame:0061D83F
+Exact line:TestFramework line 2610
+Module : ..\test\build\debug\test.exe Stack frame:00618313
+Exact line:TestFramework line 1198
+Module : ..\test\build\debug\test.exe Stack frame:006185AD
+After line:TestFramework line 1275
+Module : ..\test\build\debug\test.exe Stack frame:00619A80
+Exact line:TestFramework line 1722
+Module : ..\test\build\debug\test.exe Stack frame:00618E4D
+After line:TestFramework line 1425
+Module : ..\test\build\debug\test.exe Stack frame:0061948A
+Exact line:TestFramework line 1525
+Module : ..\test\build\debug\test.exe Stack frame:0061E4A4
+Exact line:TestFramework line 2908
+Module : ..\test\build\debug\test.exe Stack frame:0062102D
+After line:AgiledoxTestRunner line 300
+Module : ..\test\build\debug\test.exe Stack frame:00621171
+After line:AgiledoxTestRunner line 324
+Module : ..\test\build\debug\test.exe Stack frame:0062CEE7
+Exact line:ooRunTest line 68
+Module : C:\Windows\syswow64\kernel32.dll Stack frame:76E333AA
+Module : C:\Windows\syswow64\kernel32.dll - no MAP information exists
+Module : ntdll.dll Stack frame:77B89F72
+Module : ntdll.dll - no MAP information exists
+Module : ntdll.dll Stack frame:77B89F45
+Module : ntdll.dll - no MAP information exists
+---------------End of Stack trace --------------
+Adding coverage:ooAppInfo.Version.pas (ooAppInfo.Version) 98
+Clearing BreakPoint at 00632164
+De-Activate ooAppInfo.Version.pas line 98 BreakPoint at:00632164
+Adding coverage:ooAppInfo.Version.pas (ooAppInfo.Version) 99
+Clearing BreakPoint at 0063216D
+De-Activate ooAppInfo.Version.pas line 99 BreakPoint at:0063216D
+Adding coverage:ooAppInfo.Version.pas (ooAppInfo.Version) 100
+Clearing BreakPoint at 006321CD
+De-Activate ooAppInfo.Version.pas line 100 BreakPoint at:006321CD
+EXCEPTION CODE:0EEDFADE
+Address:76F3C41F
+EXCEPTION flags:00000001
+---------------Stack trace --------------
+Module : ..\test\build\debug\test.exe Stack frame:006326C9
+After line:ooAppInfo.Version_test line 34
+Module : ..\test\build\debug\test.exe Stack frame:00619E52
+Exact line:TestFramework line 1769
+Module : ..\test\build\debug\test.exe Stack frame:0061A3F5
+Exact line:TestFramework line 1828
+Module : ..\test\build\debug\test.exe Stack frame:006326CE
+Exact line:ooAppInfo.Version_test line 34
+Module : ..\test\build\debug\test.exe Stack frame:0061C795
+Exact line:TestFramework line 2336
+Module : ..\test\build\debug\test.exe Stack frame:0061C954
+Exact line:TestFramework line 2365
+Module : ..\test\build\debug\test.exe Stack frame:00618313
+Exact line:TestFramework line 1198
+Module : ..\test\build\debug\test.exe Stack frame:006185AD
+After line:TestFramework line 1275
+Module : ..\test\build\debug\test.exe Stack frame:00619A80
+Exact line:TestFramework line 1722
+Module : ..\test\build\debug\test.exe Stack frame:0061C7FA
+Exact line:TestFramework line 2349
+Module : ..\test\build\debug\test.exe Stack frame:0061D83F
+Exact line:TestFramework line 2610
+Module : ..\test\build\debug\test.exe Stack frame:00618313
+Exact line:TestFramework line 1198
+Module : ..\test\build\debug\test.exe Stack frame:006185AD
+After line:TestFramework line 1275
+Module : ..\test\build\debug\test.exe Stack frame:00619A80
+Exact line:TestFramework line 1722
+Module : ..\test\build\debug\test.exe Stack frame:0061D83F
+Exact line:TestFramework line 2610
+Module : ..\test\build\debug\test.exe Stack frame:00618313
+Exact line:TestFramework line 1198
+Module : ..\test\build\debug\test.exe Stack frame:006185AD
+After line:TestFramework line 1275
+Module : ..\test\build\debug\test.exe Stack frame:00619A80
+Exact line:TestFramework line 1722
+Module : ..\test\build\debug\test.exe Stack frame:00618E4D
+After line:TestFramework line 1425
+Module : ..\test\build\debug\test.exe Stack frame:0061948A
+Exact line:TestFramework line 1525
+Module : ..\test\build\debug\test.exe Stack frame:0061E4A4
+Exact line:TestFramework line 2908
+Module : ..\test\build\debug\test.exe Stack frame:0062102D
+After line:AgiledoxTestRunner line 300
+Module : ..\test\build\debug\test.exe Stack frame:00621171
+After line:AgiledoxTestRunner line 324
+Module : ..\test\build\debug\test.exe Stack frame:0062CEE7
+Exact line:ooRunTest line 68
+Module : C:\Windows\syswow64\kernel32.dll Stack frame:76E333AA
+Module : C:\Windows\syswow64\kernel32.dll - no MAP information exists
+Module : ntdll.dll Stack frame:77B89F72
+Module : ntdll.dll - no MAP information exists
+Module : ntdll.dll Stack frame:77B89F45
+Module : ntdll.dll - no MAP information exists
+---------------End of Stack trace --------------
+Adding coverage:ooAppInfo.pas (ooAppInfo) 269
+Clearing BreakPoint at 006336F4
+De-Activate ooAppInfo.pas line 269 BreakPoint at:006336F4
+Adding coverage:ooAppInfo.pas (ooAppInfo) 270
+Clearing BreakPoint at 006336FD
+De-Activate ooAppInfo.pas line 270 BreakPoint at:006336FD
+Adding coverage:ooAppInfo.pas (ooAppInfo) 254
+Clearing BreakPoint at 00633608
+De-Activate ooAppInfo.pas line 254 BreakPoint at:00633608
+Adding coverage:ooAppInfo.pas (ooAppInfo) 255
+Clearing BreakPoint at 0063363A
+De-Activate ooAppInfo.pas line 255 BreakPoint at:0063363A
+Adding coverage:ooAppInfo.pas (ooAppInfo) 256
+Clearing BreakPoint at 00633644
+De-Activate ooAppInfo.pas line 256 BreakPoint at:00633644
+Adding coverage:ooAppInfo.pas (ooAppInfo) 257
+Clearing BreakPoint at 00633653
+De-Activate ooAppInfo.pas line 257 BreakPoint at:00633653
+Adding coverage:ooAppInfo.pas (ooAppInfo) 259
+Clearing BreakPoint at 00633682
+De-Activate ooAppInfo.pas line 259 BreakPoint at:00633682
+Adding coverage:ooAppInfo.pas (ooAppInfo) 246
+Clearing BreakPoint at 00633570
+De-Activate ooAppInfo.pas line 246 BreakPoint at:00633570
+Adding coverage:ooAppInfo.pas (ooAppInfo) 247
+Clearing BreakPoint at 0063358C
+De-Activate ooAppInfo.pas line 247 BreakPoint at:0063358C
+Adding coverage:ooAppInfo.pas (ooAppInfo) 248
+Clearing BreakPoint at 0063359C
+De-Activate ooAppInfo.pas line 248 BreakPoint at:0063359C
+Adding coverage:ooAppInfo.pas (ooAppInfo) 247
+Clearing BreakPoint at 006335D0
+De-Activate ooAppInfo.pas line 247 BreakPoint at:006335D0
+Adding coverage:ooAppInfo.pas (ooAppInfo) 249
+Clearing BreakPoint at 006335D3
+De-Activate ooAppInfo.pas line 249 BreakPoint at:006335D3
+Adding coverage:ooAppInfo.pas (ooAppInfo) 260
+Clearing BreakPoint at 00633689
+De-Activate ooAppInfo.pas line 260 BreakPoint at:00633689
+Adding coverage:ooAppInfo.pas (ooAppInfo) 271
+Clearing BreakPoint at 00633721
+De-Activate ooAppInfo.pas line 271 BreakPoint at:00633721
+Adding coverage:ooAppInfo.pas (ooAppInfo) 145
+Clearing BreakPoint at 00632D88
+De-Activate ooAppInfo.pas line 145 BreakPoint at:00632D88
+Adding coverage:ooAppInfo.pas (ooAppInfo) 146
+Clearing BreakPoint at 00632D8E
+De-Activate ooAppInfo.pas line 146 BreakPoint at:00632D8E
+Adding coverage:ooAppInfo.pas (ooAppInfo) 147
+Clearing BreakPoint at 00632D98
+De-Activate ooAppInfo.pas line 147 BreakPoint at:00632D98
+Adding coverage:ooAppInfo.pas (ooAppInfo) 263
+Clearing BreakPoint at 006336C8
+De-Activate ooAppInfo.pas line 263 BreakPoint at:006336C8
+Adding coverage:ooAppInfo.pas (ooAppInfo) 264
+Clearing BreakPoint at 006336D3
+De-Activate ooAppInfo.pas line 264 BreakPoint at:006336D3
+Adding coverage:ooAppInfo.pas (ooAppInfo) 265
+Clearing BreakPoint at 006336DB
+De-Activate ooAppInfo.pas line 265 BreakPoint at:006336DB
+Adding coverage:ooAppInfo.pas (ooAppInfo) 266
+Clearing BreakPoint at 006336E6
+De-Activate ooAppInfo.pas line 266 BreakPoint at:006336E6
+Adding coverage:ooAppInfo.pas (ooAppInfo) 279
+Clearing BreakPoint at 00633728
+De-Activate ooAppInfo.pas line 279 BreakPoint at:00633728
+Adding coverage:ooAppInfo.pas (ooAppInfo) 280
+Clearing BreakPoint at 00633734
+De-Activate ooAppInfo.pas line 280 BreakPoint at:00633734
+Adding coverage:ooAppInfo.pas (ooAppInfo) 258
+Clearing BreakPoint at 00633672
+De-Activate ooAppInfo.pas line 258 BreakPoint at:00633672
+Adding coverage:ooAppInfo.pas (ooAppInfo) 257
+Clearing BreakPoint at 0063367D
+De-Activate ooAppInfo.pas line 257 BreakPoint at:0063367D
+Adding coverage:ooAppInfo.pas (ooAppInfo) 281
+Clearing BreakPoint at 00633747
+De-Activate ooAppInfo.pas line 281 BreakPoint at:00633747
+Adding coverage:ooAppInfo.pas (ooAppInfo) 177
+Clearing BreakPoint at 00632F4C
+De-Activate ooAppInfo.pas line 177 BreakPoint at:00632F4C
+Adding coverage:ooAppInfo.pas (ooAppInfo) 180
+Clearing BreakPoint at 00632F4F
+De-Activate ooAppInfo.pas line 180 BreakPoint at:00632F4F
+Adding coverage:ooAppInfo.pas (ooAppInfo) 185
+Clearing BreakPoint at 00632F5E
+De-Activate ooAppInfo.pas line 185 BreakPoint at:00632F5E
+Adding coverage:ooAppInfo.pas (ooAppInfo) 155
+Clearing BreakPoint at 00632DE8
+De-Activate ooAppInfo.pas line 155 BreakPoint at:00632DE8
+Adding coverage:ooAppInfo.pas (ooAppInfo) 156
+Clearing BreakPoint at 00632E00
+De-Activate ooAppInfo.pas line 156 BreakPoint at:00632E00
+Adding coverage:ooAppInfo.pas (ooAppInfo) 157
+Clearing BreakPoint at 00632E1F
+De-Activate ooAppInfo.pas line 157 BreakPoint at:00632E1F
+Adding coverage:ooAppInfo.pas (ooAppInfo) 150
+Clearing BreakPoint at 00632D9C
+De-Activate ooAppInfo.pas line 150 BreakPoint at:00632D9C
+Adding coverage:ooAppInfo.pas (ooAppInfo) 151
+Clearing BreakPoint at 00632DB2
+De-Activate ooAppInfo.pas line 151 BreakPoint at:00632DB2
+Adding coverage:ooAppInfo.pas (ooAppInfo) 152
+Clearing BreakPoint at 00632DC6
+De-Activate ooAppInfo.pas line 152 BreakPoint at:00632DC6
+Adding coverage:ooAppInfo.pas (ooAppInfo) 173
+Clearing BreakPoint at 00632F44
+De-Activate ooAppInfo.pas line 173 BreakPoint at:00632F44
+Adding coverage:ooAppInfo.pas (ooAppInfo) 174
+Clearing BreakPoint at 00632F4A
+De-Activate ooAppInfo.pas line 174 BreakPoint at:00632F4A
+EXCEPTION CODE:0EEDFADE
+Address:76F3C41F
+EXCEPTION flags:00000001
+---------------Stack trace --------------
+Module : ..\test\build\debug\test.exe Stack frame:006341D4
+After line:ooAppInfo_test line 71
+Module : ..\test\build\debug\test.exe Stack frame:00619E52
+Exact line:TestFramework line 1769
+Module : ..\test\build\debug\test.exe Stack frame:0061AAFD
+Exact line:TestFramework line 1920
+Module : ..\test\build\debug\test.exe Stack frame:006341D9
+Exact line:ooAppInfo_test line 71
+Module : ..\test\build\debug\test.exe Stack frame:0061C795
+Exact line:TestFramework line 2336
+Module : ..\test\build\debug\test.exe Stack frame:0061C954
+Exact line:TestFramework line 2365
+Module : ..\test\build\debug\test.exe Stack frame:00618313
+Exact line:TestFramework line 1198
+Module : ..\test\build\debug\test.exe Stack frame:006185AD
+After line:TestFramework line 1275
+Module : ..\test\build\debug\test.exe Stack frame:00619A80
+Exact line:TestFramework line 1722
+Module : ..\test\build\debug\test.exe Stack frame:0061C7FA
+Exact line:TestFramework line 2349
+Module : ..\test\build\debug\test.exe Stack frame:0061D83F
+Exact line:TestFramework line 2610
+Module : ..\test\build\debug\test.exe Stack frame:00618313
+Exact line:TestFramework line 1198
+Module : ..\test\build\debug\test.exe Stack frame:006185AD
+After line:TestFramework line 1275
+Module : ..\test\build\debug\test.exe Stack frame:00619A80
+Exact line:TestFramework line 1722
+Module : ..\test\build\debug\test.exe Stack frame:0061D83F
+Exact line:TestFramework line 2610
+Module : ..\test\build\debug\test.exe Stack frame:00618313
+Exact line:TestFramework line 1198
+Module : ..\test\build\debug\test.exe Stack frame:006185AD
+After line:TestFramework line 1275
+Module : ..\test\build\debug\test.exe Stack frame:00619A80
+Exact line:TestFramework line 1722
+Module : ..\test\build\debug\test.exe Stack frame:00618E4D
+After line:TestFramework line 1425
+Module : ..\test\build\debug\test.exe Stack frame:0061948A
+Exact line:TestFramework line 1525
+Module : ..\test\build\debug\test.exe Stack frame:0061E4A4
+Exact line:TestFramework line 2908
+Module : ..\test\build\debug\test.exe Stack frame:0062102D
+After line:AgiledoxTestRunner line 300
+Module : ..\test\build\debug\test.exe Stack frame:00621171
+After line:AgiledoxTestRunner line 324
+Module : ..\test\build\debug\test.exe Stack frame:0062CEE7
+Exact line:ooRunTest line 68
+Module : C:\Windows\syswow64\kernel32.dll Stack frame:76E333AA
+Module : C:\Windows\syswow64\kernel32.dll - no MAP information exists
+Module : ntdll.dll Stack frame:77B89F72
+Module : ntdll.dll - no MAP information exists
+Module : ntdll.dll Stack frame:77B89F45
+Module : ntdll.dll - no MAP information exists
+---------------End of Stack trace --------------
+Adding coverage:ooAppInfo.pas (ooAppInfo) 167
+Clearing BreakPoint at 00632EAC
+De-Activate ooAppInfo.pas line 167 BreakPoint at:00632EAC
+Adding coverage:ooAppInfo.pas (ooAppInfo) 168
+Clearing BreakPoint at 00632EC6
+De-Activate ooAppInfo.pas line 168 BreakPoint at:00632EC6
+Adding coverage:ooAppInfo.pas (ooAppInfo) 169
+Clearing BreakPoint at 00632F1E
+De-Activate ooAppInfo.pas line 169 BreakPoint at:00632F1E
+Adding coverage:ooAppInfo.pas (ooAppInfo) 233
+Clearing BreakPoint at 00633484
+De-Activate ooAppInfo.pas line 233 BreakPoint at:00633484
+Adding coverage:ooAppInfo.pas (ooAppInfo) 234
+Clearing BreakPoint at 006334A3
+De-Activate ooAppInfo.pas line 234 BreakPoint at:006334A3
+Adding coverage:ooAppInfo.pas (ooAppInfo) 235
+Clearing BreakPoint at 006334A7
+De-Activate ooAppInfo.pas line 235 BreakPoint at:006334A7
+Adding coverage:ooAppInfo.pas (ooAppInfo) 235
+Clearing BreakPoint at 0063350D
+De-Activate ooAppInfo.pas line 235 BreakPoint at:0063350D
+Adding coverage:ooAppInfo.pas (ooAppInfo) 237
+Clearing BreakPoint at 006334D6
+De-Activate ooAppInfo.pas line 237 BreakPoint at:006334D6
+Adding coverage:ooAppInfo.pas (ooAppInfo) 238
+Clearing BreakPoint at 00633507
+De-Activate ooAppInfo.pas line 238 BreakPoint at:00633507
+Adding coverage:ooAppInfo.pas (ooAppInfo) 240
+Clearing BreakPoint at 00633526
+De-Activate ooAppInfo.pas line 240 BreakPoint at:00633526
+Adding coverage:ooAppInfo.pas (ooAppInfo) 241
+Clearing BreakPoint at 0063353E
+De-Activate ooAppInfo.pas line 241 BreakPoint at:0063353E
+Adding coverage:ooAppInfo.pas (ooAppInfo) 226
+Clearing BreakPoint at 0063329C
+De-Activate ooAppInfo.pas line 226 BreakPoint at:0063329C
+Adding coverage:ooAppInfo.pas (ooAppInfo) 227
+Clearing BreakPoint at 006332CA
+De-Activate ooAppInfo.pas line 227 BreakPoint at:006332CA
+Adding coverage:ooAppInfo.pas (ooAppInfo) 160
+Clearing BreakPoint at 00632E48
+De-Activate ooAppInfo.pas line 160 BreakPoint at:00632E48
+Adding coverage:ooAppInfo.pas (ooAppInfo) 161
+Clearing BreakPoint at 00632E61
+De-Activate ooAppInfo.pas line 161 BreakPoint at:00632E61
+Adding coverage:ooAppInfo.pas (ooAppInfo) 162
+Clearing BreakPoint at 00632E67
+De-Activate ooAppInfo.pas line 162 BreakPoint at:00632E67
+Adding coverage:ooAppInfo.pas (ooAppInfo) 163
+Clearing BreakPoint at 00632E7F
+De-Activate ooAppInfo.pas line 163 BreakPoint at:00632E7F
+Adding coverage:ooAppInfo.pas (ooAppInfo) 164
+Clearing BreakPoint at 00632E89
+De-Activate ooAppInfo.pas line 164 BreakPoint at:00632E89
+Adding coverage:ooAppInfo.pas (ooAppInfo) 190
+Clearing BreakPoint at 00632F60
+De-Activate ooAppInfo.pas line 190 BreakPoint at:00632F60
+Adding coverage:ooAppInfo.pas (ooAppInfo) 191
+Clearing BreakPoint at 00632F92
+De-Activate ooAppInfo.pas line 191 BreakPoint at:00632F92
+Adding coverage:ooAppInfo.pas (ooAppInfo) 192
+Clearing BreakPoint at 00632FA2
+De-Activate ooAppInfo.pas line 192 BreakPoint at:00632FA2
+Adding coverage:ooAppInfo.pas (ooAppInfo) 192
+Clearing BreakPoint at 00633067
+De-Activate ooAppInfo.pas line 192 BreakPoint at:00633067
+Adding coverage:ooAppInfo.pas (ooAppInfo) 193
+Clearing BreakPoint at 00632FD4
+De-Activate ooAppInfo.pas line 193 BreakPoint at:00632FD4
+Adding coverage:ooAppInfo.pas (ooAppInfo) 194
+Clearing BreakPoint at 00632FF1
+De-Activate ooAppInfo.pas line 194 BreakPoint at:00632FF1
+Adding coverage:ooAppInfo.pas (ooAppInfo) 195
+Clearing BreakPoint at 00633084
+De-Activate ooAppInfo.pas line 195 BreakPoint at:00633084
+Adding coverage:ooAppInfo.pas (ooAppInfo) 196
+Clearing BreakPoint at 0063309C
+De-Activate ooAppInfo.pas line 196 BreakPoint at:0063309C
+Adding coverage:ooAppInfo.pas (ooAppInfo) 197
+Clearing BreakPoint at 006330B4
+De-Activate ooAppInfo.pas line 197 BreakPoint at:006330B4
+Adding coverage:ooAppInfo.pas (ooAppInfo) 202
+Clearing BreakPoint at 00633138
+De-Activate ooAppInfo.pas line 202 BreakPoint at:00633138
+Adding coverage:ooAppInfo.pas (ooAppInfo) 203
+Clearing BreakPoint at 00633157
+De-Activate ooAppInfo.pas line 203 BreakPoint at:00633157
+Adding coverage:ooAppInfo.pas (ooAppInfo) 204
+Clearing BreakPoint at 00633160
+De-Activate ooAppInfo.pas line 204 BreakPoint at:00633160
+Adding coverage:ooAppInfo.pas (ooAppInfo) 204
+Clearing BreakPoint at 00633201
+De-Activate ooAppInfo.pas line 204 BreakPoint at:00633201
+Adding coverage:ooAppInfo.pas (ooAppInfo) 205
+Clearing BreakPoint at 0063318F
+De-Activate ooAppInfo.pas line 205 BreakPoint at:0063318F
+Adding coverage:ooAppInfo.pas (ooAppInfo) 207
+Clearing BreakPoint at 006331AC
+De-Activate ooAppInfo.pas line 207 BreakPoint at:006331AC
+Adding coverage:ooAppInfo.pas (ooAppInfo) 210
+Clearing BreakPoint at 006331DB
+De-Activate ooAppInfo.pas line 210 BreakPoint at:006331DB
+Adding coverage:ooAppInfo.pas (ooAppInfo) 208
+Clearing BreakPoint at 006331B8
+De-Activate ooAppInfo.pas line 208 BreakPoint at:006331B8
+Adding coverage:ooAppInfo.pas (ooAppInfo) 211
+Clearing BreakPoint at 0063321E
+De-Activate ooAppInfo.pas line 211 BreakPoint at:0063321E
+Adding coverage:ooAppInfo.pas (ooAppInfo) 212
+Clearing BreakPoint at 00633236
+De-Activate ooAppInfo.pas line 212 BreakPoint at:00633236
+Adding coverage:ooAppInfo.pas (ooAppInfo) 228
+Clearing BreakPoint at 0063334C
+De-Activate ooAppInfo.pas line 228 BreakPoint at:0063334C
+EXCEPTION CODE:0EEDFADE
+Address:76F3C41F
+EXCEPTION flags:00000001
+---------------Stack trace --------------
+Module : ..\test\build\debug\test.exe Stack frame:00634730
+After line:ooAppInfo_test line 106
+Module : ..\test\build\debug\test.exe Stack frame:00619E52
+Exact line:TestFramework line 1769
+Module : ..\test\build\debug\test.exe Stack frame:0061A3F5
+Exact line:TestFramework line 1828
+Module : ..\test\build\debug\test.exe Stack frame:00634735
+Exact line:ooAppInfo_test line 106
+Module : ..\test\build\debug\test.exe Stack frame:0061C795
+Exact line:TestFramework line 2336
+Module : ..\test\build\debug\test.exe Stack frame:0061C954
+Exact line:TestFramework line 2365
+Module : ..\test\build\debug\test.exe Stack frame:00618313
+Exact line:TestFramework line 1198
+Module : ..\test\build\debug\test.exe Stack frame:006185AD
+After line:TestFramework line 1275
+Module : ..\test\build\debug\test.exe Stack frame:00619A80
+Exact line:TestFramework line 1722
+Module : ..\test\build\debug\test.exe Stack frame:0061C7FA
+Exact line:TestFramework line 2349
+Module : ..\test\build\debug\test.exe Stack frame:0061D83F
+Exact line:TestFramework line 2610
+Module : ..\test\build\debug\test.exe Stack frame:00618313
+Exact line:TestFramework line 1198
+Module : ..\test\build\debug\test.exe Stack frame:006185AD
+After line:TestFramework line 1275
+Module : ..\test\build\debug\test.exe Stack frame:00619A80
+Exact line:TestFramework line 1722
+Module : ..\test\build\debug\test.exe Stack frame:0061D83F
+Exact line:TestFramework line 2610
+Module : ..\test\build\debug\test.exe Stack frame:00618313
+Exact line:TestFramework line 1198
+Module : ..\test\build\debug\test.exe Stack frame:006185AD
+After line:TestFramework line 1275
+Module : ..\test\build\debug\test.exe Stack frame:00619A80
+Exact line:TestFramework line 1722
+Module : ..\test\build\debug\test.exe Stack frame:00618E4D
+After line:TestFramework line 1425
+Module : ..\test\build\debug\test.exe Stack frame:0061948A
+Exact line:TestFramework line 1525
+Module : ..\test\build\debug\test.exe Stack frame:0061E4A4
+Exact line:TestFramework line 2908
+Module : ..\test\build\debug\test.exe Stack frame:0062102D
+After line:AgiledoxTestRunner line 300
+Module : ..\test\build\debug\test.exe Stack frame:00621171
+After line:AgiledoxTestRunner line 324
+Module : ..\test\build\debug\test.exe Stack frame:0062CEE7
+Exact line:ooRunTest line 68
+Module : C:\Windows\syswow64\kernel32.dll Stack frame:76E333AA
+Module : C:\Windows\syswow64\kernel32.dll - no MAP information exists
+Module : ntdll.dll Stack frame:77B89F72
+Module : ntdll.dll - no MAP information exists
+Module : ntdll.dll Stack frame:77B89F45
+Module : ntdll.dll - no MAP information exists
+---------------End of Stack trace --------------
+Process 1204 exiting. Exit code :0
+Finished processing debug events
+ProcedureReport
+Generating reports
+Generating coverage report
+Source dir: C:\develop\ooLib\ooAppInfo\code\
+Output dir: ..\test\coverage\
+Generating xml coverage report
+Generating EMMA file
+Generating EMMA data for module: ModuleInfo[ modulename=ooAppInfo.Version, filename=ooAppInfo.Version.pas ]
+Generating EMMA data for class: TAppVersion
+Generating EMMA data for method: AsString l:3 c:3
+Generating EMMA data for method: New l:3 c:3
+Generating EMMA data for method: Build l:2 c:2
+Generating EMMA data for method: Create l:3 c:3
+Generating EMMA data for method: Major l:2 c:2
+Generating EMMA data for method: Release l:2 c:2
+Generating EMMA data for method: Minor l:2 c:2
+Generating EMMA data for method: GetBuildInfo l:14 c:4
+Generating EMMA data for module: ModuleInfo[ modulename=ooAppInfo.Parameter.Parser, filename=ooAppInfo.Parameter.Parser.pas ]
+Generating EMMA data for class: TAppParameterParser
+Generating EMMA data for method: IsValueBegin l:3 c:3
+Generating EMMA data for method: ParseValue l:9 c:9
+Generating EMMA data for method: New l:3 c:3
+Generating EMMA data for method: ParseName l:7 c:7
+Generating EMMA data for method: Parse l:4 c:4
+Generating EMMA data for method: Create l:3 c:3
+Generating EMMA data for method: IsParamBegin l:3 c:3
+Generating EMMA data for module: ModuleInfo[ modulename=ooAppInfo, filename=ooAppInfo.pas ]
+Generating EMMA data for class: TAppInfo
+Generating EMMA data for method: Command l:3 c:3
+Generating EMMA data for method: Usage l:3 c:3
+Generating EMMA data for method: ExampleUsage l:9 c:9
+Generating EMMA data for method: Path l:3 c:3
+Generating EMMA data for method: Description l:3 c:3
+Generating EMMA data for method: ParameterUsage l:8 c:8
+Generating EMMA data for method: FileName l:3 c:3
+Generating EMMA data for method: Version l:5 c:5
+Generating EMMA data for method: New l:3 c:3
+Generating EMMA data for method: Create l:7 c:7
+Generating EMMA data for method: ParameterCount l:2 c:2
+Generating EMMA data for method: InvalidParameters l:7 c:7
+Generating EMMA data for method: BuildParameters l:4 c:4
+Generating EMMA data for method: Parameter l:3 c:3
+Generating EMMA data for method: Destroy l:4 c:4
+Generating EMMA data for class: AppInfoDefined
+Generating EMMA data for method: AppInfoDefined l:3 c:3
+Generating EMMA data for module: ModuleInfo[ modulename=ooAppInfo.Parameter, filename=ooAppInfo.Parameter.pas ]
+Generating EMMA data for class: TAppParameter
+Generating EMMA data for method: New l:3 c:3
+Generating EMMA data for method: UpdateValue l:3 c:3
+Generating EMMA data for method: Create l:6 c:6
+Generating EMMA data for method: Usage l:3 c:3
+Generating EMMA data for method: Name l:3 c:3
+Generating EMMA data for method: Description l:3 c:3
+Generating EMMA data for method: Value l:3 c:3
+Generating EMMA data for method: Required l:2 c:2
+Generating EMMA data for class: TAppParamList
+Generating EMMA data for method: Add l:6 c:6
+Generating EMMA data for method: Exists l:3 c:3
+Generating EMMA data for method: IndexOf l:8 c:8
+Emma file generated
+Finished generating reports
+
+Summary:
+
++-----------+-----------+-----------+
+|   Lines   |  Covered  | Covered % |
++-----------+-----------+-----------+
+|       176 |       166 |      94 % |
++-----------+-----------+-----------+
