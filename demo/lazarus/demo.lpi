@@ -28,7 +28,7 @@
           <PathDelim Value="\"/>
           <SearchPaths>
             <IncludeFiles Value="$(ProjOutDir)"/>
-            <OtherUnitFiles Value="$env(delphi3rdParty)\generics.collections\src;..\..\..\ooBatch\code;..\..\code;..\code\form"/>
+            <OtherUnitFiles Value="$env(delphi3rdParty)\generics.collections\src;$env(delphiooLib)\ooBatch\code;..\..\code;..\code\form"/>
             <UnitOutputDirectory Value="..\build\debug"/>
           </SearchPaths>
           <Parsing>
