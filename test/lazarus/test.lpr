@@ -14,8 +14,6 @@ uses
   ooAppInfo.Parameter.Mock in '..\code\ooAppInfo.Parameter.Mock.pas',
   ooAppInfo.ParameterList_test in '..\code\ooAppInfo.ParameterList_test.pas';
 
-{R *.RES}
-
 {$R *.res}
 
 begin

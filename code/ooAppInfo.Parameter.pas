@@ -33,14 +33,15 @@ type
 {$ENDREGION}
   IAppParameter = interface
     ['{E8A683CD-3028-467A-A806-2175F236958F}']
-    function Name: String;
-    function Description: String;
-    function Usage: String;
-    function Required: Boolean;
-    function Value: String;
+    function Name: string;
+    function Description: string;
+    function Usage: string;
+    function Required: boolean;
+    function Value: string;
 
-    procedure UpdateValue(const Value: String);
+    procedure UpdateValue(const Value: string);
   end;
+
 {$REGION 'documentation'}
 {
   @abstract(List of @link(IAppParameter) objects)
@@ -63,10 +64,11 @@ type
 {$ENDREGION}
   TAppParamList = class(TList<IAppParameter>)
   public
-    function IndexOf(const Name: String): Integer;
-    function Exists(const Name: String): Boolean;
-    function Add(const AppParameter: IAppParameter): Integer; reintroduce;
+    function IndexOf(const Name: string): integer;
+    function Exists(const Name: string): boolean;
+    function Add(const AppParameter: IAppParameter): integer; reintroduce;
   end;
+
 {$REGION 'documentation'}
 {
   @abstract(Implementation of @link(IAppParameter))
@@ -95,43 +97,43 @@ type
 
   TAppParameter = class(TInterfacedObject, IAppParameter)
   strict private
-    _Name: String;
-    _Description: String;
-    _Usage: String;
-    _Value: String;
-    _Required: Boolean;
+    _Name: string;
+    _Description: string;
+    _Usage: string;
+    _Value: string;
+    _Required: boolean;
   public
-    function Name: String;
-    function Description: String;
-    function Usage: String;
-    function Value: String;
-    function Required: Boolean;
-    procedure UpdateValue(const Value: String);
-    constructor Create(const Name, Description, Usage: String; const Required: Boolean = False);
-    class function New(const Name, Description, Usage: String; const Required: Boolean = False): IAppParameter;
+    function Name: string;
+    function Description: string;
+    function Usage: string;
+    function Value: string;
+    function Required: boolean;
+    procedure UpdateValue(const Value: string);
+    constructor Create(const Name, Description, Usage: string; const Required: boolean = False);
+    class function New(const Name, Description, Usage: string; const Required: boolean = False): IAppParameter;
   end;
 
 implementation
 
-function TAppParamList.Add(const AppParameter: IAppParameter): Integer;
+function TAppParamList.Add(const AppParameter: IAppParameter): integer;
 begin
   Result := IndexOf(AppParameter.Name);
-  if Result = - 1 then
+  if Result = -1 then
     Result := inherited Add(AppParameter)
   else
     Items[Result].UpdateValue(AppParameter.Value);
 end;
 
-function TAppParamList.Exists(const Name: String): Boolean;
+function TAppParamList.Exists(const Name: string): boolean;
 begin
-  Result := IndexOf(Name) > - 1;
+  Result := IndexOf(Name) > -1;
 end;
 
-function TAppParamList.IndexOf(const Name: String): Integer;
+function TAppParamList.IndexOf(const Name: string): integer;
 var
-  i: Integer;
+  i: integer;
 begin
-  Result := - 1;
+  Result := -1;
   for i := 0 to Pred(Count) do
   begin
     if Trim(Name) = Trim(Items[i].Name) then
@@ -142,37 +144,37 @@ begin
   end;
 end;
 
-function TAppParameter.Name: String;
+function TAppParameter.Name: string;
 begin
   Result := _Name;
 end;
 
-function TAppParameter.Description: String;
+function TAppParameter.Description: string;
 begin
   Result := _Description;
 end;
 
-procedure TAppParameter.UpdateValue(const Value: String);
+procedure TAppParameter.UpdateValue(const Value: string);
 begin
   _Value := Value;
 end;
 
-function TAppParameter.Usage: String;
+function TAppParameter.Usage: string;
 begin
   Result := _Usage;
 end;
 
-function TAppParameter.Value: String;
+function TAppParameter.Value: string;
 begin
   Result := _Value;
 end;
 
-function TAppParameter.Required: Boolean;
+function TAppParameter.Required: boolean;
 begin
   Result := _Required;
 end;
 
-constructor TAppParameter.Create(const Name, Description, Usage: String; const Required: Boolean = False);
+constructor TAppParameter.Create(const Name, Description, Usage: string; const Required: boolean = False);
 begin
   _Name := Name;
   _Description := Description;
@@ -180,8 +182,8 @@ begin
   _Required := Required;
 end;
 
-class function TAppParameter.New(const Name, Description, Usage: String;
-  const Required: Boolean = False): IAppParameter;
+class function TAppParameter.New(const Name, Description, Usage: string;
+  const Required: boolean = False): IAppParameter;
 begin
   Result := Create(Name, Description, Usage, Required);
 end;
