@@ -18,7 +18,7 @@ begin
       if InvalidParameters then
         Writeln(Usage)
       else
-        Writeln(Parameter(0).Value);
+        Writeln(ParameterByIndex(0).Value);
     end;
   except
     on E: Exception do

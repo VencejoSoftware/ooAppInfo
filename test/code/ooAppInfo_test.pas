@@ -61,7 +61,7 @@ var
 begin
   AppInfo := AppInfoDefined('Application to test', NewParameters);
   CheckTrue(AppInfo.InvalidParameters);
-  AppInfo.Parameter(4).UpdateValue('aaaa');
+  AppInfo.ParameterByIndex(4).UpdateValue('aaaa');
   CheckFalse(AppInfo.InvalidParameters);
 end;
 
@@ -75,8 +75,8 @@ var
   AppInfo: IAppInfo;
 begin
   AppInfo := AppInfoDefined('Application to test', NewParameters);
-  AppInfo.Parameter(0).UpdateValue('test');
-  CheckEquals('test', AppInfo.Parameter(0).Value);
+  AppInfo.ParameterByIndex(0).UpdateValue('test');
+  CheckEquals('test', AppInfo.ParameterByIndex(0).Value);
 end;
 
 procedure TAppInfoTest.UsageText;

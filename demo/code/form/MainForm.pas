@@ -52,11 +52,11 @@ begin
     Memo1.Lines.Append(Format('Description: %s', [Description]));
     Memo1.Lines.Append(Format('Path: %s', [Path]));
     Memo1.Lines.Append(Format('FileName: %s', [FileName]));
-    Memo1.Lines.Append(Format('Is valid: %s', [BoolToStr( not InvalidParameters, True)]));
+    Memo1.Lines.Append(Format('Is valid: %s', [BoolToStr(not InvalidParameters, True)]));
     Memo1.Lines.Append(Format('ParamCount: %d', [ParameterCount]));
     for i := 0 to Pred(ParameterCount) do
-      Memo1.Lines.Append(Format('  Param Index: %d, name: "%s", value: "%s"', [i, Parameter(i).Name,
-          Parameter(i).Value]));
+      Memo1.Lines.Append(Format('  Param Index: %d, name: "%s", value: "%s"', [i, ParameterByIndex(i).Name,
+        ParameterByIndex(i).Value]));
     Memo1.Lines.Append(EmptyStr);
     Memo1.Lines.Append(Usage);
     Memo1.Lines.Append(EmptyStr);

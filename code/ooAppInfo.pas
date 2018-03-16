@@ -30,7 +30,7 @@ type
   @member(FileName Binary file name of application)
   @member(ParameterCount Number of parameters in command execution)
   @member(
-    Parameter Get parameter item in list
+    ParameterByIndex Get parameter item by index list
     @param(Index The item index in list)
     @returns(@link(IAppParameter) object)
   )
@@ -64,7 +64,7 @@ type
     function Path: String;
     function FileName: String;
     function ParameterCount: Integer;
-    function Parameter(const Index: Integer): IAppParameter;
+    function ParameterByIndex(const Index: Integer): IAppParameter;
     function InvalidParameters: Boolean;
     function Usage: String;
     function Version: IAppVersion;
@@ -77,7 +77,7 @@ type
   @member(Path @seealso(IAppInfo.Path))
   @member(FileName @seealso(IAppInfo.FileName))
   @member(ParameterCount @seealso(IAppInfo.ParameterCount))
-  @member(Parameter @seealso(IAppInfo.Parameter))
+  @member(ParameterByIndex @seealso(IAppInfo.ParameterByIndex))
   @member(InvalidParameters @seealso(IAppInfo.InvalidParameters))
   @member(Usage @seealso(IAppInfo.Usage))
   @member(Version @seealso(IAppInfo.Version))
@@ -110,7 +110,7 @@ type
     function Path: String;
     function FileName: String;
     function ParameterCount: Integer;
-    function Parameter(const Index: Integer): IAppParameter;
+    function ParameterByIndex(const Index: Integer): IAppParameter;
     function InvalidParameters: Boolean;
     function Usage: String;
     function Version: IAppVersion;
@@ -163,7 +163,7 @@ begin
   Result := _AppVersion;
 end;
 
-function TAppInfo.Parameter(const Index: Integer): IAppParameter;
+function TAppInfo.ParameterByIndex(const Index: Integer): IAppParameter;
 begin
   Result := _ParamList.Items[Index];
 end;

@@ -27,6 +27,7 @@ type
   @member(Description Parameter description)
   @member(Usage Command usage example)
   @member(Required Indicates whether the parameter is required)
+  @member(Value Checks if parameter has some value)
   @member(Value Parameter value)
   @member(UpdateValue Changes the parameter value)
 }
@@ -37,6 +38,7 @@ type
     function Description: string;
     function Usage: string;
     function Required: boolean;
+    function IsEmpty: boolean;
     function Value: string;
 
     procedure UpdateValue(const Value: string);
@@ -62,6 +64,7 @@ type
   )
 }
 {$ENDREGION}
+
   TAppParamList = class(TList<IAppParameter>)
   public
     function IndexOf(const Name: string): integer;
@@ -76,6 +79,7 @@ type
   @member(Description @seealso(IAppParameter.Description))
   @member(Usage @seealso(IAppParameter.Usage))
   @member(Required @seealso(IAppParameter.Required))
+  @member(IsEmpty @seealso(IAppParameter.IsEmpty))
   @member(Value @seealso(IAppParameter.Value))
   @member(UpdateValue @seealso(IAppParameter.UpdateValue))
   @member(
@@ -106,6 +110,7 @@ type
     function Name: string;
     function Description: string;
     function Usage: string;
+    function IsEmpty: boolean;
     function Value: string;
     function Required: boolean;
     procedure UpdateValue(const Value: string);
@@ -118,7 +123,7 @@ implementation
 function TAppParamList.Add(const AppParameter: IAppParameter): integer;
 begin
   Result := IndexOf(AppParameter.Name);
-  if Result = -1 then
+  if Result = - 1 then
     Result := inherited Add(AppParameter)
   else
     Items[Result].UpdateValue(AppParameter.Value);
@@ -126,14 +131,14 @@ end;
 
 function TAppParamList.Exists(const Name: string): boolean;
 begin
-  Result := IndexOf(Name) > -1;
+  Result := IndexOf(Name) > - 1;
 end;
 
 function TAppParamList.IndexOf(const Name: string): integer;
 var
   i: integer;
 begin
-  Result := -1;
+  Result := - 1;
   for i := 0 to Pred(Count) do
   begin
     if Trim(Name) = Trim(Items[i].Name) then
@@ -164,6 +169,11 @@ begin
   Result := _Usage;
 end;
 
+function TAppParameter.IsEmpty: boolean;
+begin
+  Result := Length(Value) < 1;
+end;
+
 function TAppParameter.Value: string;
 begin
   Result := _Value;
@@ -182,8 +192,8 @@ begin
   _Required := Required;
 end;
 
-class function TAppParameter.New(const Name, Description, Usage: string;
-  const Required: boolean = False): IAppParameter;
+class function TAppParameter.New(const Name, Description, Usage: string; const Required: boolean = False)
+  : IAppParameter;
 begin
   Result := Create(Name, Description, Usage, Required);
 end;
